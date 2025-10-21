@@ -69,14 +69,18 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
-import { useRoute } from 'vue-router';
+import { computed, watch } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { getSupportedLocales, setLocale } from '@/plugins/i18n';
+import { useSeo } from '@/composables/useSeo';
 
 const route = useRoute();
+const router = useRouter();
 const { t, locale } = useI18n();
 const locales = getSupportedLocales();
+
+useSeo();
 
 const navigation = computed(() => [
   { label: t('navigation.home'), path: '/' },
@@ -92,6 +96,32 @@ const currentLocale = computed(() => locale.value);
 function switchLanguage(next: string) {
   setLocale(next as 'en' | 'zh');
 }
+
+watch(
+  () => locale.value,
+  (nextLocale) => {
+    if (route.query.lang === nextLocale) {
+      return;
+    }
+
+    router.replace({
+      query: {
+        ...route.query,
+        lang: nextLocale
+      }
+    });
+  },
+  { immediate: true }
+);
+
+watch(
+  () => route.query.lang,
+  (queryLang) => {
+    if (typeof queryLang === 'string' && queryLang !== locale.value && locales.includes(queryLang)) {
+      setLocale(queryLang as 'en' | 'zh');
+    }
+  }
+);
 </script>
 
 <style scoped>

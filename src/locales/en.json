@@ -7,6 +7,44 @@
     "en": "English",
     "zh": "中文"
   },
+  "seo": {
+    "siteName": "AI Innovate Solutions",
+    "default": {
+      "title": "AI Innovate Solutions | Intelligent innovation for global enterprises",
+      "description": "AI Innovate Solutions partners with enterprise teams to design, build, and scale responsible AI products that unlock measurable business outcomes.",
+      "keywords": "AI consulting, machine learning engineering, enterprise AI, digital transformation, data strategy, MLOps"
+    },
+    "home": {
+      "title": "AI Innovate Solutions | Intelligent innovation for global enterprises",
+      "description": "Discover how AI Innovate Solutions blends strategy, design, and engineering to launch human-centered AI initiatives with measurable ROI.",
+      "keywords": "AI strategy, responsible AI, AI innovation, digital transformation partner"
+    },
+    "about": {
+      "title": "About AI Innovate Solutions | Bilingual team of applied AI experts",
+      "description": "Meet the bilingual researchers, designers, and engineers behind AI Innovate Solutions and explore the milestones that shaped our global practice.",
+      "keywords": "AI experts, Shenzhen AI company, applied AI team, AI innovation lab"
+    },
+    "services": {
+      "title": "Enterprise AI services | AI Innovate Solutions",
+      "description": "Explore AI Innovate Solutions' end-to-end services from strategy and data infrastructure to product engineering and model lifecycle management.",
+      "keywords": "AI services, data infrastructure, product engineering, MLOps, AI enablement"
+    },
+    "cases": {
+      "title": "AI case studies | AI Innovate Solutions client impact",
+      "description": "Review AI Innovate Solutions case studies featuring predictive maintenance, personalized retail experiences, and real-time risk intelligence.",
+      "keywords": "AI case studies, predictive maintenance, retail AI, risk intelligence"
+    },
+    "news": {
+      "title": "Insights from AI Innovate Solutions",
+      "description": "Read the latest insights from AI Innovate Solutions on responsible generative AI, multilingual conversational agents, and scaling MLOps.",
+      "keywords": "AI insights, generative AI governance, multilingual AI, MLOps best practices"
+    },
+    "contact": {
+      "title": "Contact AI Innovate Solutions | Book a strategy call",
+      "description": "Connect with AI Innovate Solutions to design your next AI win and schedule a bilingual strategy workshop tailored to your business goals.",
+      "keywords": "AI consultation, contact AI Innovate Solutions, AI workshop, enterprise AI partner"
+    }
+  },
   "navigation": {
     "home": "Home",
     "about": "About",

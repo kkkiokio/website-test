@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "vite",
+    "prebuild": "npm run seo:generate",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "seo:generate": "node scripts/generate-seo-assets.mjs"
   },
   "dependencies": {
     "vue": "^3.4.21",

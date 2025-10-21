@@ -1,0 +1,180 @@
+{
+  "brand": {
+    "name": "AI Innovate Solutions",
+    "tagline": "Accelerating smart enterprises with full-stack artificial intelligence consulting and engineering."
+  },
+  "languages": {
+    "en": "English",
+    "zh": "中文"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "cases": "Case Studies",
+    "news": "Insights",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Intelligent innovation for the real world",
+      "subtitle": "We partner with ambitious teams to design, build, and scale human-centered AI products that unlock measurable business outcomes.",
+      "cta": "Book a strategy call"
+    },
+    "stats": [
+      {
+        "value": "120+",
+        "label": "Enterprise AI projects delivered"
+      },
+      {
+        "value": "35%",
+        "label": "Average efficiency gained"
+      },
+      {
+        "value": "18",
+        "label": "Industries transformed"
+      }
+    ],
+    "pillars": {
+      "title": "Why leaders choose us",
+      "subtitle": "We combine domain expertise, pragmatic experimentation, and enterprise-grade engineering to deliver resilient AI solutions.",
+      "items": [
+        {
+          "title": "Strategic alignment",
+          "description": "Roadmaps anchored in your business KPIs, paired with measurable success frameworks."
+        },
+        {
+          "title": "Responsible AI",
+          "description": "Governance-first approach across data privacy, bias mitigation, and model observability."
+        },
+        {
+          "title": "Trusted delivery",
+          "description": "Dedicated cross-functional squads delivering shippable increments every two weeks."
+        }
+      ]
+    }
+  },
+  "about": {
+    "intro": {
+      "title": "A bilingual team of applied AI practitioners",
+      "subtitle": "Founded in Shenzhen, AI Innovate Solutions brings together researchers, designers, and cloud engineers to modernize operations for global clients."
+    },
+    "timeline": {
+      "title": "Milestones",
+      "items": [
+        {
+          "year": "2018",
+          "description": "Company founded with a mission to close the AI adoption gap for manufacturers."
+        },
+        {
+          "year": "2020",
+          "description": "Launched our ModelOps platform and expanded to finance and retail verticals."
+        },
+        {
+          "year": "2022",
+          "description": "Certified as a strategic partner by three Fortune Global 500 enterprises."
+        },
+        {
+          "year": "2023",
+          "description": "Opened Singapore innovation lab to support Southeast Asia expansion."
+        }
+      ]
+    }
+  },
+  "services": {
+    "intro": {
+      "title": "End-to-end services",
+      "subtitle": "From discovery to production, we co-create intelligent solutions that elevate customer experiences and operational resilience."
+    },
+    "items": [
+      {
+        "title": "AI Strategy & Enablement",
+        "description": "Maturity assessments, executive workshops, and value mapping to prioritize initiatives that deliver ROI within 90 days."
+      },
+      {
+        "title": "Data Infrastructure Modernization",
+        "description": "Cloud-native data lakes, streaming pipelines, and governance frameworks tailored for regulated industries."
+      },
+      {
+        "title": "Product Engineering",
+        "description": "Design sprints, rapid prototyping, and full-stack development for AI-powered applications across web and mobile."
+      },
+      {
+        "title": "Model Lifecycle Management",
+        "description": "Responsible AI, monitoring, and retraining pipelines ensuring mission-critical models remain accurate and compliant."
+      }
+    ]
+  },
+  "cases": {
+    "intro": {
+      "title": "Impact stories",
+      "subtitle": "We help market leaders ship AI responsibly. Explore a selection of recent engagements."
+    },
+    "items": [
+      {
+        "title": "Predictive maintenance for smart factories",
+        "description": "Implemented edge-to-cloud analytics for a robotics manufacturer, cutting downtime by 42% and saving $3.8M annually."
+      },
+      {
+        "title": "Hyper-personalized retail journeys",
+        "description": "Delivered recommendation models for an omnichannel retailer, boosting conversion rates by 27% within six months."
+      },
+      {
+        "title": "Real-time risk intelligence",
+        "description": "Built a knowledge graph solution for a financial services firm to proactively detect fraudulent entities."
+      }
+    ]
+  },
+  "news": {
+    "intro": {
+      "title": "Latest insights",
+      "subtitle": "Thought leadership and practical guidance for technology decision makers navigating the AI era."
+    },
+    "articles": [
+      {
+        "title": "A pragmatic checklist for responsible generative AI",
+        "description": "Operational guardrails that balance innovation velocity with compliance requirements."
+      },
+      {
+        "title": "Designing multilingual conversational agents",
+        "description": "How to orchestrate language models, knowledge bases, and human handoff for enterprise support."
+      },
+      {
+        "title": "Scaling MLOps in regulated markets",
+        "description": "Lessons from deploying automated monitoring in finance, healthcare, and energy sectors."
+      }
+    ],
+    "readMore": "Read more"
+  },
+  "contact": {
+    "intro": {
+      "title": "Let’s design your next AI win",
+      "subtitle": "Share your goals and we will assemble a cross-functional squad to co-create the roadmap."
+    },
+    "form": {
+      "name": "Name",
+      "email": "Work Email",
+      "company": "Company",
+      "message": "Project goals",
+      "submit": "Submit"
+    },
+    "details": {
+      "title": "Connect with us",
+      "description": "We respond within two business days and can schedule bilingual workshops across time zones.",
+      "phone": "Phone: +86 755 8899 3200",
+      "email": "Email: hello@aiinnovate.global"
+    }
+  },
+  "footer": {
+    "contact": {
+      "title": "Contact",
+      "address": "21F, Nanshan Software Park, Shenzhen, China",
+      "phone": "+86 755 8899 3200",
+      "email": "hello@aiinnovate.global"
+    },
+    "quickLinks": {
+      "title": "Quick links"
+    },
+    "copyright": "© {year} AI Innovate Solutions. All rights reserved."
+  }
+}

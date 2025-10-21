@@ -1,0 +1,180 @@
+{
+  "brand": {
+    "name": "智创未来科技",
+    "tagline": "以端到端人工智能服务，赋能企业实现数字化跃迁。"
+  },
+  "languages": {
+    "en": "English",
+    "zh": "中文"
+  },
+  "navigation": {
+    "home": "首页",
+    "about": "关于我们",
+    "services": "产品服务",
+    "cases": "成功案例",
+    "news": "新闻洞察",
+    "contact": "联系我们"
+  },
+  "home": {
+    "hero": {
+      "title": "让智能创新落地每一个真实场景",
+      "subtitle": "我们与行业领先团队携手，构建以人为本的智能产品，实现可量化的业务增长。",
+      "cta": "预约战略咨询"
+    },
+    "stats": [
+      {
+        "value": "120+",
+        "label": "交付企业级AI项目"
+      },
+      {
+        "value": "35%",
+        "label": "平均效率提升幅度"
+      },
+      {
+        "value": "18",
+        "label": "覆盖行业领域"
+      }
+    ],
+    "pillars": {
+      "title": "客户信赖的核心优势",
+      "subtitle": "融合行业洞察、敏捷实验与工程落地能力，打造安全可靠的智能解决方案。",
+      "items": [
+        {
+          "title": "战略同频",
+          "description": "以业务KPI为导向制定演进路线图，输出量化评估体系。"
+        },
+        {
+          "title": "可信AI",
+          "description": "数据隐私、偏差管控与模型可观测的全流程治理。"
+        },
+        {
+          "title": "敏捷交付",
+          "description": "跨职能专家团队双周迭代，持续产出可上线成果。"
+        }
+      ]
+    }
+  },
+  "about": {
+    "intro": {
+      "title": "深耕实战的双语AI团队",
+      "subtitle": "智创未来科技扎根深圳，聚集科研、设计与云工程人才，为全球客户构建现代化运营体系。"
+    },
+    "timeline": {
+      "title": "发展历程",
+      "items": [
+        {
+          "year": "2018",
+          "description": "公司成立，聚焦制造业AI落地难题。"
+        },
+        {
+          "year": "2020",
+          "description": "发布ModelOps平台，业务拓展至金融与零售。"
+        },
+        {
+          "year": "2022",
+          "description": "成为三家世界500强企业的战略合作伙伴。"
+        },
+        {
+          "year": "2023",
+          "description": "新加坡创新实验室启用，服务东南亚市场。"
+        }
+      ]
+    }
+  },
+  "services": {
+    "intro": {
+      "title": "一站式智能服务",
+      "subtitle": "覆盖从战略发现到产品上线的全流程，助力企业打造差异化体验与稳健运营。"
+    },
+    "items": [
+      {
+        "title": "AI战略规划",
+        "description": "成熟度评估、管理层共创与价值地图，优先落地90天见效的项目。"
+      },
+      {
+        "title": "数据基础设施升级",
+        "description": "面向监管行业的云原生数仓、流式管道与治理体系。"
+      },
+      {
+        "title": "智能产品工程",
+        "description": "设计冲刺、快速原型与全栈开发，构建跨终端AI产品。"
+      },
+      {
+        "title": "模型生命周期管理",
+        "description": "涵盖负责任AI、监控与再训练的闭环流程，确保核心模型长期可靠。"
+      }
+    ]
+  },
+  "cases": {
+    "intro": {
+      "title": "成果案例",
+      "subtitle": "携手行业标杆安全落地AI，以下为近期精选项目。"
+    },
+    "items": [
+      {
+        "title": "智能工厂预测性维护",
+        "description": "为机器人制造商构建边云协同分析，停机时间下降42%，年节省成本380万美元。"
+      },
+      {
+        "title": "零售全渠道精准推荐",
+        "description": "为零售集团打造个性化推荐模型，六个月转化率提升27%。"
+      },
+      {
+        "title": "实时风险情报平台",
+        "description": "为金融机构搭建知识图谱，提前识别潜在欺诈主体。"
+      }
+    ]
+  },
+  "news": {
+    "intro": {
+      "title": "最新洞察",
+      "subtitle": "面向技术决策者的AI实践指南与趋势洞察。"
+    },
+    "articles": [
+      {
+        "title": "生成式AI的合规落地清单",
+        "description": "兼顾创新速度与合规要求的运营护栏。"
+      },
+      {
+        "title": "多语言智能客服设计要点",
+        "description": "协同大语言模型、知识库与人工介入，打造高满意度服务体验。"
+      },
+      {
+        "title": "监管行业的MLOps扩展实践",
+        "description": "在金融、医疗与能源行业部署自动化监控的经验总结。"
+      }
+    ],
+    "readMore": "阅读全文"
+  },
+  "contact": {
+    "intro": {
+      "title": "开启下一场智能化突破",
+      "subtitle": "分享您的业务目标，我们将组建跨职能团队共同制定路线图。"
+    },
+    "form": {
+      "name": "姓名",
+      "email": "工作邮箱",
+      "company": "公司名称",
+      "message": "项目诉求",
+      "submit": "提交"
+    },
+    "details": {
+      "title": "与我们取得联系",
+      "description": "我们会在两个工作日内回复，并支持跨时区的中英文研讨。",
+      "phone": "电话：+86 755 8899 3200",
+      "email": "邮箱：hello@aiinnovate.global"
+    }
+  },
+  "footer": {
+    "contact": {
+      "title": "联系我们",
+      "address": "中国深圳·南山软件园21F",
+      "phone": "+86 755 8899 3200",
+      "email": "hello@aiinnovate.global"
+    },
+    "quickLinks": {
+      "title": "快速导航"
+    },
+    "copyright": "© {year} 智创未来科技 版权所有"
+  }
+}

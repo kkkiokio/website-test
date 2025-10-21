@@ -1,6 +1,6 @@
-# AI Innovate Solutions Website
+# LinguaBridge Technologies Website
 
-多语言的 AI Innovate Solutions 官网，使用 [Vue 3](https://vuejs.org/) + [Vite](https://vitejs.dev/) 构建，并针对 SEO、国际化以及生产部署进行了优化。
+多语言的 LinguaBridge Technologies 官网，使用 [Vue 3](https://vuejs.org/) + [Vite](https://vitejs.dev/) 构建，并针对 SEO、国际化以及生产部署进行了优化。
 
 ## 先决条件
 - Node.js 18+（推荐 LTS 版本）
@@ -22,7 +22,7 @@ npm run dev
 
 | 变量名 | 说明 | 示例 |
 | --- | --- | --- |
-| `VITE_SITE_URL` | 站点对外访问域名，用于生成 canonical、OG URL、sitemap、robots | `https://aiinnovate.global` |
+| `VITE_SITE_URL` | 站点对外访问域名，用于生成 canonical、OG URL、sitemap、robots | `https://linguabridge.ai` |
 | `VITE_PUBLIC_BASE_PATH` | 静态资源基础路径，部署到子目录时设置 | `/website/` |
 | `VITE_BUILD_OUTPUT_DIR` | 构建输出目录 | `dist` |
 | `VITE_ASSETS_DIR` | 构建产物中的静态资源目录 | `assets` |
@@ -33,7 +33,7 @@ npm run dev
 ## 构建与部署
 ```bash
 # 生成 robots.txt 与 sitemap.xml（prebuild 钩子会自动执行）
-VITE_SITE_URL=https://aiinnovate.global npm run build
+VITE_SITE_URL=https://linguabridge.ai npm run build
 ```
 
 - `vite.config.ts` 会根据当前 `mode` 读取环境变量，自动设置 `base`、构建目录、静态资源目录以及 Source Map。

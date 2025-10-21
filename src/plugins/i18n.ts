@@ -8,6 +8,12 @@ const SUPPORTED_LOCALES = ['en', 'zh'] as const;
 type Locale = (typeof SUPPORTED_LOCALES)[number];
 
 function getInitialLocale(): Locale {
+  const queryLocale =
+    typeof window !== 'undefined' ? new URLSearchParams(window.location.search).get('lang') : undefined;
+  if (queryLocale && SUPPORTED_LOCALES.includes(queryLocale as Locale)) {
+    return queryLocale as Locale;
+  }
+
   const storage = typeof window !== 'undefined' ? window.localStorage : undefined;
   const saved = storage?.getItem('preferred-locale');
   if (saved && SUPPORTED_LOCALES.includes(saved as Locale)) {

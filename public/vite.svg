@@ -1,0 +1,21 @@
+<svg width="256" height="257" viewBox="0 0 256 257" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="vite_purple" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#646CFF" />
+      <stop offset="1" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="vite_orange" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFEA83" />
+      <stop offset="0.5" stop-color="#FFC15E" />
+      <stop offset="1" stop-color="#FF7E33" />
+    </linearGradient>
+  </defs>
+  <path
+    d="M128 10L12 50.5L28 200L128 247L228 200L244 50.5L128 10Z"
+    fill="url(#vite_purple)"
+  />
+  <path
+    d="M128 42L60 62L70 178L128 206L186 178L196 62L128 42Z"
+    fill="url(#vite_orange)"
+  />
+</svg>

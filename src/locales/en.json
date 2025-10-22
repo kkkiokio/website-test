@@ -356,16 +356,48 @@
     },
     "articles": [
       {
-        "title": "W4 Pro tops the global translation earbud market",
-        "description": "A 2024 industry report highlights Timekettle’s leading market share and ecosystem advantages."
+        "title": "Timekettle App V3.0 redefines translation earbud interactions",
+        "datetime": "2023-01-31 19:44",
+        "excerpt": "The Timekettle App receives a major V3.0 upgrade with a fresh architecture and UI made for effortless translation earbud control.",
+        "body": [
+          "A new year brings a new chapter for work and life, and Timekettle is celebrating with a major release of the Timekettle App.",
+          "Version 3.0 overhauls the layout and interaction model from V2.2.26 with a brand-new architecture, visual language, and operating logic that set a new bar for translation earbuds.",
+          "The streamlined pages keep every feature within easy reach, while the refreshed UI shortens the learning curve and supports more scenarios to dramatically elevate real-world translation experiences."
+        ],
+        "images": ["news1-1.jpg", "news1-2.jpg", "news1-3.jpg"]
       },
       {
-        "title": "How AI interpreting transforms classrooms",
-        "description": "An international school in Shenzhen shares its results with Timekettle’s multilingual teaching toolkit."
+        "title": "Timekettle featured on ABC’s KCRG-TV9 for classroom translation breakthroughs",
+        "datetime": "2022-11-08 15:21",
+        "excerpt": "ABC affiliate KCRG-TV9 highlights how Timekettle translation earbuds empower multilingual teaching across the Ottumwa Community School District.",
+        "body": [
+          "On November 3, 2022, Timekettle translation earbuds were spotlighted by ABC television station KCRG-TV9 in Iowa for their impact on multilingual education.",
+          "The feature story reported that Timekettle helps more than 1,000 students in the Ottumwa Community School District learn in their native language, removing language barriers and keeping classes on pace.",
+          "Educators noted that Timekettle enables schools to offer personalized support for multilingual learners, improving classroom engagement and participation."
+        ],
+        "images": ["news2-1.png", "news2-2.png", "news2-3.jpg"]
       },
       {
-        "title": "Global media chronicles Timekettle’s journey",
-        "description": "Roundup of features from BBC, The New York Times, Forbes, and more describing our “sci-fi” products."
+        "title": "New release: M3 travel translation earbuds unlock cross-border living",
+        "datetime": "2023-03-31 14:29",
+        "excerpt": "Timekettle launches the all-weather M3 travel translation earbuds featuring touch interpreting for faster multilingual conversations.",
+        "body": [
+          "On August 1, 2022, Timekettle Technology announced the next-generation M3 travel translation earbuds designed for cross-border lifestyles.",
+          "Building on the M Series’ blend of translation and TWS audio, the M3 introduces Timekettle’s signature touch interpreting to eliminate the stop-and-go rhythm of traditional translation and lift conversation efficiency by 40%.",
+          "High-precision ANC and an upgraded transparency mode make the M3 ideal for travel, home, and business scenarios that demand reliable multilingual communication."
+        ],
+        "images": ["news3-1.jpg", "news3-2.jpg", "news3-3.jpg"]
+      },
+      {
+        "title": "Timekettle powers ‘Speak to the World’ to amplify youth voices",
+        "datetime": "2021-05-06 21:57",
+        "excerpt": "The Timekettle translation ecosystem supports the youth speech program ‘Speak to the World’ with live AI interpreting.",
+        "body": [
+          "On May 6, 2021, the Central Committee of the Communist Youth League premiered ‘Speak to the World’ across major domestic and international platforms to spotlight outstanding young innovators.",
+          "As the program’s translation partner, Timekettle delivered on-site AI simultaneous interpreting so audiences speaking different languages could follow each inspiring talk in real time.",
+          "The first youth speech program without language barriers gathered trailblazing young leaders to share the stories behind their achievements, and Timekettle ensured their voices resonated worldwide."
+        ],
+        "images": ["news4-1.jpg", "news4-2.jpg.webp", "news4-3.jpg"]
       }
     ],
     "readMore": "Read more"

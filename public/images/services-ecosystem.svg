@@ -1,0 +1,42 @@
+<svg width="720" height="520" viewBox="0 0 720 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dbeafe" />
+      <stop offset="1" stop-color="#f5f3ff" />
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb" />
+      <stop offset="1" stop-color="#7c3aed" />
+    </linearGradient>
+  </defs>
+  <rect x="40" y="56" width="640" height="408" rx="40" fill="url(#bg)" />
+  <g transform="translate(120 132)">
+    <rect x="96" y="0" width="288" height="208" rx="32" fill="#ffffff" opacity="0.92" />
+    <rect x="132" y="32" width="216" height="48" rx="20" fill="#1d4ed8" opacity="0.18" />
+    <rect x="132" y="92" width="96" height="80" rx="16" fill="#0ea5e9" opacity="0.35" />
+    <rect x="248" y="92" width="96" height="80" rx="16" fill="#7c3aed" opacity="0.3" />
+  </g>
+  <g transform="translate(120 132)">
+    <circle cx="0" cy="104" r="48" fill="#ffffff" />
+    <circle cx="0" cy="104" r="32" fill="#2563eb" opacity="0.85" />
+    <path d="M0 64v80" stroke="#2563eb" stroke-width="8" stroke-linecap="round" opacity="0.5" />
+    <path d="M-34 92h68" stroke="#2563eb" stroke-width="8" stroke-linecap="round" opacity="0.5" />
+  </g>
+  <g transform="translate(520 140)">
+    <rect x="0" y="0" width="120" height="72" rx="20" fill="#1d4ed8" opacity="0.16" />
+    <rect x="0" y="92" width="120" height="72" rx="20" fill="#7c3aed" opacity="0.16" />
+    <rect x="0" y="184" width="120" height="72" rx="20" fill="#38bdf8" opacity="0.18" />
+  </g>
+  <path d="M208 180c-24 52-24 124 0 176" stroke="url(#node)" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.45" />
+  <path d="M416 180c24 52 24 124 0 176" stroke="url(#node)" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.45" />
+  <circle cx="360" cy="92" r="32" fill="#38bdf8" opacity="0.6" />
+  <circle cx="444" cy="92" r="24" fill="#7c3aed" opacity="0.5" />
+  <circle cx="276" cy="92" r="24" fill="#2563eb" opacity="0.6" />
+  <g transform="translate(240 392)">
+    <rect x="0" y="0" width="240" height="84" rx="24" fill="#ffffff" />
+    <rect x="32" y="28" width="120" height="16" rx="8" fill="#1f2937" opacity="0.8" />
+    <rect x="32" y="52" width="176" height="16" rx="8" fill="#1f2937" opacity="0.4" />
+  </g>
+  <circle cx="120" cy="392" r="36" fill="url(#node)" opacity="0.9" />
+  <circle cx="600" cy="392" r="36" fill="#38bdf8" opacity="0.5" />
+</svg>

@@ -3,7 +3,7 @@
     <div class="container">
       <h1 class="section__title">{{ t('cases.intro.title') }}</h1>
       <p class="section__subtitle">{{ t('cases.intro.subtitle') }}</p>
-      <div class="grid grid--three">
+      <div class="grid grid--two">
         <div v-for="item in cases" :key="item.title" class="card">
           <div class="card__title">{{ item.title }}</div>
           <p class="card__subtitle">{{ item.description }}</p>

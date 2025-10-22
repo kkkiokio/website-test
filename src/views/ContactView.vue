@@ -1,9 +1,14 @@
 <template>
   <section class="section section--light">
     <div class="container" style="display: grid; gap: 3rem; align-items: start;">
-      <div>
-        <h1 class="section__title">{{ t('contact.intro.title') }}</h1>
-        <p class="section__subtitle">{{ t('contact.intro.subtitle') }}</p>
+      <div class="split-grid">
+        <div>
+          <h1 class="section__title">{{ t('contact.intro.title') }}</h1>
+          <p class="section__subtitle">{{ t('contact.intro.subtitle') }}</p>
+        </div>
+        <div v-if="introMedia" class="split-grid__media">
+          <img :src="introMedia.src" :alt="introMedia.alt" class="split-grid__image" loading="lazy" />
+        </div>
       </div>
       <div class="grid grid--two">
         <form class="card" style="display: grid; gap: 1rem;">
@@ -30,6 +35,7 @@
           <p style="margin: 0; color: #475569;">{{ t('contact.details.description') }}</p>
           <p style="margin: 0;">{{ t('contact.details.phone') }}</p>
           <p style="margin: 0;">{{ t('contact.details.email') }}</p>
+          <p style="margin: 0;">{{ t('contact.details.address') }}</p>
         </div>
       </div>
     </div>
@@ -37,9 +43,20 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 
-const { t } = useI18n();
+const { t, tm } = useI18n();
+
+type Media = {
+  src: string;
+  alt: string;
+};
+
+const introMedia = computed<Media | undefined>(() => {
+  const media = tm('contact.intro.media');
+  return media && typeof media === 'object' ? (media as Media) : undefined;
+});
 </script>
 
 <style scoped>

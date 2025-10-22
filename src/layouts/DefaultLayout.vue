@@ -59,6 +59,20 @@
               {{ item.label }}
             </router-link>
           </div>
+          <div style="display: grid; gap: 1rem;">
+            <strong>{{ t('footer.social.title') }}</strong>
+            <a
+              v-for="social in socialLinks"
+              :key="social.href"
+              :href="social.href"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="color: #e2e8f0; font-weight: 500;"
+              :aria-label="social.aria"
+            >
+              {{ social.label }}
+            </a>
+          </div>
         </div>
         <div class="footer__bottom">
           {{ t('footer.copyright', { year: new Date().getFullYear() }) }}
@@ -77,7 +91,7 @@ import { useSeo } from '@/composables/useSeo';
 
 const route = useRoute();
 const router = useRouter();
-const { t, locale } = useI18n();
+const { t, tm, locale } = useI18n();
 const locales = getSupportedLocales();
 
 useSeo();
@@ -92,6 +106,14 @@ const navigation = computed(() => [
 ]);
 
 const currentLocale = computed(() => locale.value);
+
+type SocialLink = {
+  label: string;
+  href: string;
+  aria?: string;
+};
+
+const socialLinks = computed<SocialLink[]>(() => (tm('footer.social.links') as SocialLink[]) ?? []);
 
 function switchLanguage(next: string) {
   setLocale(next as 'en' | 'zh');

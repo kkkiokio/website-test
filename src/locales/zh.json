@@ -1,48 +1,48 @@
 {
   "brand": {
-    "name": "语桥跨语科技",
-    "tagline": "以AI驱动的多语言体验，帮助品牌跨越语言障碍触达全球用户。"
+    "name": "时空壶 Timekettle",
+    "tagline": "以 AI 同传与硬件创新，让不同语言的人即时互懂。"
   },
   "languages": {
     "en": "English",
     "zh": "中文"
   },
   "seo": {
-    "siteName": "语桥跨语科技",
+    "siteName": "时空壶 Timekettle",
     "default": {
-      "title": "语桥跨语科技｜全球多语言智能体验平台",
-      "description": "语桥跨语科技致力于以AI驱动的多语言产品与服务，打通品牌与全球用户之间的沟通壁垒，提供覆盖战略、产品与运营的端到端解决方案。",
-      "keywords": "多语言AI, 智能客服, 跨语言体验, 全球化运营, 语言大模型"
+      "title": "时空壶 Timekettle｜AI 翻译耳机与同传解决方案",
+      "description": "时空壶 Timekettle 致力于以 AI 语音技术和硬件创新，提供覆盖商务、教育、出行等全场景的实时翻译产品与服务，让沟通创造连接。",
+      "keywords": "时空壶, Timekettle, AI 翻译耳机, 同声传译, 实时翻译, 多语言沟通"
     },
     "home": {
-      "title": "语桥跨语科技｜让每一次对话跨越语言边界",
-      "description": "了解语桥跨语科技如何依托自研语言大模型，为171+国家的团队打造即开即用的多语言体验。",
-      "keywords": "跨语言客服, 多语言大模型, 全球客户体验"
+      "title": "时空壶 Timekettle｜沟通创造连接",
+      "description": "了解时空壶如何凭借 Babel OS 2.0 与旗舰翻译耳机，让 171+ 国家用户跨越语言障碍。",
+      "keywords": "时空壶官网, 翻译耳机, Babel OS 2.0, AI 同传"
     },
     "about": {
-      "title": "关于语桥跨语科技｜跨语言智能体验团队",
-      "description": "认识语桥跨语科技的跨学科团队，了解我们从深圳走向全球、持续打磨多语言产品的关键历程。",
-      "keywords": "多语言AI团队, 全球化产品, 语言科技, 深圳AI公司"
+      "title": "关于时空壶｜AI 翻译领域的领航品牌",
+      "description": "认识创立于 2016 年的时空壶团队，了解我们从深圳走向全球 171+ 国家、屡获国际设计大奖的品牌历程。",
+      "keywords": "时空壶品牌故事, 翻译耳机发展, 深圳 AI 硬件"
     },
     "services": {
-      "title": "核心产品｜语桥跨语科技",
-      "description": "探索语桥跨语科技围绕T1、W4、W4 Pro与X1打造的多语言智能产品矩阵，满足客服、会议、内容协作等全场景需求。",
-      "keywords": "T1智能终端, W4会议助手, W4 Pro内容协作, X1语言中枢"
+      "title": "产品矩阵｜时空壶翻译耳机与解决方案",
+      "description": "探索 T1、W4、W4 Pro、X1 等产品，匹配商务会议、旅游教育与企业级协作的翻译需求。",
+      "keywords": "T1 翻译终端, W4 翻译耳机, W4 Pro 同传, X1 翻译中枢"
     },
     "cases": {
-      "title": "行业案例｜语桥跨语科技客户成果",
-      "description": "浏览语桥跨语科技在跨境电商、航空服务、金融合规等行业的多语言智能化落地成效。",
-      "keywords": "多语言客服案例, 航空语音助手, 金融KYC, 全球客户体验"
+      "title": "行业案例｜时空壶客户成功实践",
+      "description": "浏览时空壶在商务、旅游、教育、公共服务等场景的翻译落地成果。",
+      "keywords": "翻译耳机案例, 企业同传, 多语言解决方案"
     },
     "news": {
-      "title": "语桥跨语科技洞察",
-      "description": "阅读语桥跨语科技关于跨语言交互设计、实时翻译引擎与全球化运营的洞察与产品动态。",
-      "keywords": "跨语言体验, 实时翻译, 全球运营, 多语言AI"
+      "title": "新闻与动态｜时空壶前沿洞察",
+      "description": "关注时空壶产品更新、技术解读与全球媒体报道。",
+      "keywords": "时空壶新闻, 翻译技术, 媒体报道"
     },
     "contact": {
-      "title": "联系语桥跨语科技｜预约多语言体验评估",
-      "description": "与语桥跨语科技联络，获取针对品牌跨语言触达能力的评估报告与产品试用。",
-      "keywords": "多语言体验评估, 语言AI伙伴, 全球客服, 语桥跨语科技"
+      "title": "联系我们｜预约时空壶产品体验",
+      "description": "与时空壶顾问取得联系，获取企业级部署建议与产品试用方案。",
+      "keywords": "时空壶联系方式, 翻译耳机试用, 商务合作"
     }
   },
   "navigation": {
@@ -50,144 +50,338 @@
     "about": "关于我们",
     "services": "产品服务",
     "cases": "成功案例",
-    "news": "新闻洞察",
+    "news": "新闻资讯",
     "contact": "联系我们"
   },
   "home": {
     "hero": {
-      "title": "让每一次对话跨越语言边界",
-      "subtitle": "自研语言大模型与实时语音技术，为全球品牌提供覆盖咨询、产品与运营的全链路多语言体验。",
-      "cta": "预约多语言评估"
+      "title": "沟通创造连接",
+      "subtitle": "时空壶 Timekettle 结合 AI 语音技术与工业设计，为商务洽谈、课堂教学与全球出行提供随身的实时翻译体验。",
+      "cta": "预约产品体验",
+      "media": {
+        "src": "/images/hero-timekettle.svg",
+        "alt": "时空壶 AI 同传耳机的品牌插画"
+      }
     },
     "stats": [
       {
         "value": "171+",
-        "label": "服务国家与地区"
+        "label": "覆盖国家与地区"
       },
       {
-        "value": "65",
-        "label": "实时支持语言"
+        "value": "20万+",
+        "label": "全球用户"
       },
       {
-        "value": "9800万+",
-        "label": "年度跨语言互动次数"
+        "value": "4300+",
+        "label": "行业客户"
       }
     ],
     "pillars": {
-      "title": "跨语言体验的三大基石",
-      "subtitle": "兼顾品牌语调一致性、实时翻译准确率与数据安全，构建值得信赖的全球化沟通能力。",
+      "title": "跨场景翻译的核心价值",
+      "subtitle": "Babel OS 2.0、多语种语料与多设备形态，让复杂语境也能稳定输出自然口语。",
       "items": [
         {
-          "title": "语调一致",
-          "description": "通过品牌语料训练，让不同语言中的客服与营销内容保持统一体验。"
+          "title": "AI 同传体验",
+          "description": "双向同声传译支持多人会议、课程讲解与活动主持，语音字幕实时同步。"
         },
         {
-          "title": "可信传译",
-          "description": "业界领先的WER<1.5%的语音转写与翻译引擎，支持多轮上下文理解。"
+          "title": "行业词库",
+          "description": "面向商务、医疗、教育等场景构建术语库，确保专业表达准确传达。"
         },
         {
-          "title": "全球合规",
-          "description": "通过ISO/IEC 27001与GDPR审查，保障跨区域部署的数据与隐私安全。"
+          "title": "随身硬件",
+          "description": "耳机、翻译棒、主机多形态一体化设计，便携部署并支持离线使用。"
+        }
+      ]
+    },
+    "featuredProducts": {
+      "title": "旗舰产品速览",
+      "subtitle": "从个人沟通到企业部署，匹配不同翻译场景的专业设备。",
+      "items": [
+        {
+          "title": "W4 Pro 商务同传耳机",
+          "description": "旗舰翻译耳机，支持 40+ 语种实时互译与字幕共享，适合会议、培训与活动主持。",
+          "cta": "了解 W4 Pro",
+          "image": "/images/w4pro-earbuds.svg",
+          "imageAlt": "W4 Pro 翻译耳机与充电盒的插画"
+        },
+        {
+          "title": "T1 随身翻译终端",
+          "description": "双模翻译与独立屏幕，让商务出访、接待任务实现即开即用的实时沟通。",
+          "cta": "探索 T1",
+          "image": "/images/t1-translator.svg",
+          "imageAlt": "T1 手持翻译终端的插画"
+        },
+        {
+          "title": "X1 AI 翻译中枢",
+          "description": "统一管理设备、语料与账号的企业级平台，提供 API 与行业词库同步。",
+          "cta": "查看 X1",
+          "image": "/images/x1-hub.svg",
+          "imageAlt": "X1 翻译管理平台界面的插画"
+        }
+      ]
+    },
+    "technology": {
+      "title": "Babel OS 2.0 核心技术",
+      "subtitle": "自研语音识别、降噪与机器翻译引擎协同，带来可靠的实时互译体验。",
+      "features": [
+        {
+          "title": "离线 + 云端混合",
+          "description": "本地芯片与云端模型协作，弱网或无网环境仍可维持高质量翻译。"
+        },
+        {
+          "title": "多方会话管理",
+          "description": "支持多人、跨终端参与会话，自动区分说话人并生成纪要。"
+        },
+        {
+          "title": "媒体与奖项认可",
+          "description": "荣获 CES 创新大奖、iF 设计奖，被 BBC、纽约时报、福布斯等报道。"
+        }
+      ],
+      "cta": "前往技术专题"
+    },
+    "caseHighlights": {
+      "title": "真实使用场景",
+      "subtitle": "写字楼、旅游景点、学校、警察局乃至教堂，都在使用时空壶进行跨语言沟通。",
+      "items": [
+        {
+          "title": "全球旅行沟通助手",
+          "description": "Zero 随身翻译棒帮助旅行者在 60+ 语言间快速对话，平均使用时长 100 分钟/日。"
+        },
+        {
+          "title": "教育与公共服务",
+          "description": "多所学校和警察局部署 W 系列耳机，支持课堂讲解与办案问询的多语字幕记录。"
+        }
+      ]
+    },
+    "news": {
+      "title": "最新动态",
+      "items": [
+        {
+          "title": "时空壶荣获 2024 CES 创新大奖",
+          "description": "W4 Pro 凭借同传体验与工业设计斩获国际奖项，展现翻译耳机新标杆。"
+        },
+        {
+          "title": "Babel OS 2.0 发布",
+          "description": "多引擎协同与行业词库更新，让企业部署翻译更易管理、更精准。"
+        },
+        {
+          "title": "X1 平台开放 API",
+          "description": "开发者可快速集成语音转写、字幕共享与翻译服务，打造定制化解决方案。"
+        }
+      ],
+      "cta": "前往新闻中心"
+    },
+    "support": {
+      "title": "常用支持入口",
+      "links": [
+        {
+          "label": "下载 Timekettle App",
+          "description": "iOS / Android 安装包与固件更新",
+          "href": "https://cn.timekettle.co/pages/app"
+        },
+        {
+          "label": "产品使用教程",
+          "description": "快速上手指南与视频课堂",
+          "href": "https://cn.timekettle.co/pages/support"
+        },
+        {
+          "label": "售后服务政策",
+          "description": "保修条款、维修流程与常见问题",
+          "href": "https://cn.timekettle.co/pages/warranty"
         }
       ]
     }
   },
   "about": {
     "intro": {
-      "title": "致力于打破语言鸿沟的多学科团队",
-      "subtitle": "语桥跨语科技于2016年在深圳成立，以“让世界即时互懂”为使命，汇聚语言学家、声学专家与工程团队，共同打造可信赖的跨语言体验。"
+      "title": "让世界即时互懂",
+      "subtitle": "深圳时空壶技术有限公司创立于 2016 年，总部位于深圳市南山区乐普大厦，汇聚语音、声学、算法与工业设计团队，聚焦跨语言沟通创新。",
+      "media": {
+        "src": "/images/team-collaboration.svg",
+        "alt": "时空壶团队围绕翻译系统协作的插画"
+      }
+    },
+    "values": {
+      "title": "使命与价值观",
+      "items": [
+        {
+          "title": "使命",
+          "description": "通过 AI 与硬件的结合，打造让人类跨越语言障碍的翻译产品。"
+        },
+        {
+          "title": "愿景",
+          "description": "成为全球翻译耳机与跨语言技术领域的领航品牌。"
+        },
+        {
+          "title": "核心价值观",
+          "description": "沟通创造连接、以用户价值为中心、坚持长期主义创新。"
+        }
+      ]
     },
     "timeline": {
       "title": "发展历程",
       "items": [
         {
           "year": "2016",
-          "description": "语桥跨语科技成立，发布首个实时语音翻译原型，开启跨语言沟通使命。"
+          "description": "时空壶在深圳成立，发布首个实时翻译原型，提出“沟通创造连接”理念。"
         },
         {
           "year": "2018",
-          "description": "T1智能译员终端上市，被20+跨国会议中心采用。"
+          "description": "Zero 随身翻译棒上线，旅行场景实现便携互译，全球用户突破 5 万。"
         },
         {
-          "year": "2021",
-          "description": "服务版图扩展至171+国家，云端语言引擎平均响应时间降至180毫秒。"
+          "year": "2020",
+          "description": "W3 旗舰翻译耳机发布，商务与教育场景实现佩戴式同传体验。"
         },
         {
-          "year": "2023",
-          "description": "W4 Pro荣获全球CX Tech Awards“年度语言体验产品”，X1语言中枢平台全面升级。"
+          "year": "2022",
+          "description": "W4 Pro、X1 平台上市，行业用户数突破 4300 家，覆盖 171+ 国家地区。"
+        },
+        {
+          "year": "2024",
+          "description": "Babel OS 2.0 发布，产品月翻译字符数超 10 亿，持续获得全球媒体关注。"
         }
       ]
+    },
+    "team": {
+      "title": "核心团队",
+      "description": "以 CEO 田力为代表的跨学科团队，来自语音识别、芯片设计、工业设计与全球运营领域，共同推动产品从中国走向世界。"
+    },
+    "recognition": {
+      "title": "全球认可",
+      "items": [
+        "连续获得 CES 创新大奖、iF 设计奖、中国红星奖等国际设计大奖",
+        "被 BBC、纽约时报、福布斯、TechCrunch 等媒体誉为“科幻般的产品”",
+        "产品销往 171+ 国家地区，全球市场翻译耳机品类份额排名第一"
+      ]
+    },
+    "experience": {
+      "title": "线下体验与服务",
+      "description": "我们在全球建设合作伙伴网络，可预约深圳总部体验中心或授权渠道进行产品试用，并提供企业级部署咨询。"
+    },
+    "careers": {
+      "title": "加入我们",
+      "description": "持续招聘语音算法、硬件工程、产品设计、海外市场等岗位，欢迎与我们一起打造跨语言沟通的未来。"
     }
   },
   "services": {
     "intro": {
-      "title": "核心产品矩阵",
-      "subtitle": "以自研语言大模型为底座，打造覆盖客服、会议、内容协作与开发者平台的完整产品线。"
-    },
-    "items": [
-      {
-        "title": "T1 智能译员终端",
-        "description": "双模翻译与行业术语库，让线下活动与商务洽谈实现实时互译。"
-      },
-      {
-        "title": "W4 会议助手",
-        "description": "云端会议记录、字幕与多语言纪要同步输出，兼容主流视频会议平台。"
-      },
-      {
-        "title": "W4 Pro 内容协作",
-        "description": "面向全球团队的内容共创平台，提供角色语气模板与品牌术语管理。"
-      },
-      {
-        "title": "X1 语言中枢平台",
-        "description": "统一API接入语音、文本与对话翻译服务，支持开发者快速集成多语言能力。"
+      "title": "产品矩阵",
+      "subtitle": "围绕耳机、翻译终端与平台服务打造的多场景解决方案。",
+      "media": {
+        "src": "/images/services-ecosystem.svg",
+        "alt": "展示时空壶翻译生态协同的插画"
       }
-    ]
+    },
+    "segments": {
+      "consumer": {
+        "title": "消费级产品",
+        "items": [
+          {
+            "title": "W4 翻译耳机",
+            "description": "专为旅行与跨境社交设计的佩戴式翻译耳机，提供即时字幕与语音播报。"
+          },
+          {
+            "title": "W4 Pro 商务套装",
+            "description": "双耳佩戴 + 同声传译模式，支持多设备共享字幕，适合会议、培训与活动主持。"
+          },
+          {
+            "title": "Zero 随身翻译棒",
+            "description": "插拔即用的便携翻译器，支持四麦克风阵列拾音，轻松应对旅途沟通。"
+          }
+        ]
+      },
+      "enterprise": {
+        "title": "企业与教育解决方案",
+        "items": [
+          {
+            "title": "T1 随身翻译终端",
+            "description": "集成独立屏幕与双麦克风，适合商务接待、公共服务窗口的专业口译需求。"
+          },
+          {
+            "title": "X1 AI 翻译中枢",
+            "description": "集中管理设备、语料与账号，提供 API、行业词库与会议纪要输出。"
+          },
+          {
+            "title": "多语课堂解决方案",
+            "description": "结合耳机与字幕屏，为学校、培训机构提供多语教学支持与课后资料。"
+          }
+        ]
+      }
+    },
+    "technology": {
+      "title": "技术与服务能力",
+      "items": [
+        {
+          "title": "Babel OS 2.0",
+          "description": "全栈自研语音识别、噪声抑制与机器翻译引擎，多端同步升级。"
+        },
+        {
+          "title": "行业词库中心",
+          "description": "支持导入企业术语与场景词表，保障品牌表达一致。"
+        },
+        {
+          "title": "全球售后服务",
+          "description": "覆盖 171+ 国家地区的售后与培训支持，提供远程诊断与本地维修。"
+        }
+      ]
+    }
   },
   "cases": {
     "intro": {
       "title": "行业案例",
-      "subtitle": "与全球领先品牌共建多语言体验，以下为近期的量化成果。"
+      "subtitle": "时空壶产品已在商务、旅游、教育、公共服务等场景发挥价值。"
     },
     "items": [
       {
-        "title": "跨境电商全渠道客服",
-        "description": "部署W4 Pro后，35种语言客服响应时间缩短68%，GMV季度提升22%。"
+        "title": "跨国商务会议",
+        "description": "500 人会议部署 W4 Pro，同传字幕准确率达 95%，嘉宾互动更顺畅。"
       },
       {
-        "title": "航空实时语音助手",
-        "description": "T1终端协助地勤完成多语言值机，旅客满意度提升至4.8/5。"
+        "title": "国际教育课堂",
+        "description": "多语课堂方案在深圳、洛杉矶多所学校落地，帮助留学生实时跟上课程。"
       },
       {
-        "title": "金融合规KYC审核",
-        "description": "X1语言中枢对接合规流程，跨境开户文档处理效率提升3.2倍。"
+        "title": "文旅智慧导览",
+        "description": "Zero 翻译棒在热门景区提供 60+ 语言讲解，游客满意度提升至 4.9/5。"
+      },
+      {
+        "title": "公共服务窗口",
+        "description": "警察局与医院使用 T1 终端完成多语沟通，平均处理效率提升 30%。"
       }
     ]
   },
   "news": {
     "intro": {
-      "title": "最新洞察",
-      "subtitle": "洞悉多语言产品设计、实时翻译技术与全球运营策略的第一手信息。"
+      "title": "新闻资讯",
+      "subtitle": "了解时空壶产品、技术与行业动态。"
     },
     "articles": [
       {
-        "title": "从语音到文本：打造171国通用的品牌语调体系",
-        "description": "解析我们如何以行业术语库守护品牌声音的一致性。"
+        "title": "W4 Pro 荣膺全球市场翻译耳机份额第一",
+        "description": "国际调研机构发布 2024 年度报告，时空壶凭借产品力与生态优势夺得榜首。"
       },
       {
-        "title": "W4 Pro获年度语言体验产品奖背后的技术突破",
-        "description": "揭秘混合推理框架如何提升多语言会议记录的准确率。"
+        "title": "AI 同传如何重塑教育课堂",
+        "description": "深圳南山区某国际学校分享使用时空壶的多语教学实践与成效。"
       },
       {
-        "title": "合规优先的多语言客服运营指南",
-        "description": "分享数据驻留、隐私遮盖与人机协同审核的最佳实践。"
+        "title": "与全球媒体一起见证时空壶成长",
+        "description": "汇总 BBC、纽约时报、福布斯等对时空壶的深度报道与体验评价。"
       }
     ],
     "readMore": "阅读全文"
   },
   "contact": {
     "intro": {
-      "title": "开启跨语言增长新阶段",
-      "subtitle": "留下您的目标市场与渠道，我们的顾问将在48小时内提供量化评估与试用方案。"
+      "title": "开启跨语言合作",
+      "subtitle": "留下您的需求，我们将在 48 小时内与您联系并提供试用或方案建议。",
+      "media": {
+        "src": "/images/shenzhen-hq-map.svg",
+        "alt": "展示深圳南山区总部位置的插画"
+      }
     },
     "form": {
       "name": "姓名",
@@ -198,21 +392,37 @@
     },
     "details": {
       "title": "与我们取得联系",
-      "description": "语桥跨语科技全球顾问团队支持多时区、双语协作，欢迎预约演示。",
-      "phone": "电话：+86 755 8670 1120",
-      "email": "邮箱：hello@linguabridge.ai"
+      "description": "顾问团队提供中英双语支持，可预约深圳体验中心或远程演示。",
+      "phone": "电话：18782072944",
+      "email": "邮箱：18782072944@163.com",
+      "address": "地址：深圳市南山区乐普大厦"
     }
   },
   "footer": {
     "contact": {
       "title": "联系我们",
-      "address": "中国深圳·南山软件园21F",
-      "phone": "+86 755 8670 1120",
-      "email": "hello@linguabridge.ai"
+      "address": "深圳市南山区乐普大厦",
+      "phone": "18782072944",
+      "email": "18782072944@163.com"
+    },
+    "social": {
+      "title": "关注我们",
+      "links": [
+        {
+          "label": "微博",
+          "href": "https://weibo.com/timekettle",
+          "aria": "访问时空壶官方微博"
+        },
+        {
+          "label": "X (Twitter)",
+          "href": "https://x.com/TimekettleTech",
+          "aria": "访问 Timekettle 官方 X 账号"
+        }
+      ]
     },
     "quickLinks": {
       "title": "快速导航"
     },
-    "copyright": "© {year} 语桥跨语科技 版权所有"
+    "copyright": "© {year} 时空壶 Timekettle 版权所有"
   }
 }

@@ -24,7 +24,7 @@ async function main() {
   } catch {
     env = {};
   }
-  const fallbackSiteUrl = 'https://example.com/';
+  const fallbackSiteUrl = 'https://www.timekettle.co/';
   const siteUrlRaw = env.VITE_SITE_URL || process.env.VITE_SITE_URL || fallbackSiteUrl;
   const siteUrl = siteUrlRaw.endsWith('/') ? siteUrlRaw : `${siteUrlRaw}/`;
 

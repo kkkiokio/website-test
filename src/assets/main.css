@@ -37,6 +37,35 @@ a {
   background-color: #eef2f7;
 }
 
+.hero-grid {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.hero-grid__content {
+  display: grid;
+  gap: 1.5rem;
+  max-width: 720px;
+}
+
+.hero-grid__stats {
+  margin-top: 1rem;
+}
+
+.hero-grid__media {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-grid__image {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 32px;
+  box-shadow: 0 25px 50px rgba(15, 23, 42, 0.25);
+}
+
 .button {
   display: inline-block;
   padding: 0.75rem 1.75rem;
@@ -73,6 +102,18 @@ a {
   border: 1px solid rgba(148, 163, 184, 0.16);
 }
 
+.card--media {
+  display: grid;
+  gap: 1rem;
+}
+
+.card__image {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 15px 30px rgba(15, 23, 42, 0.15);
+  object-fit: cover;
+}
+
 .card__title {
   margin-bottom: 0.5rem;
   font-size: 1.25rem;
@@ -94,6 +135,25 @@ a {
   font-size: 1.1rem;
   color: #556987;
   margin-bottom: 2.5rem;
+}
+
+.split-grid {
+  display: grid;
+  gap: 2.5rem;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.split-grid__media {
+  display: flex;
+  justify-content: center;
+}
+
+.split-grid__image {
+  width: 100%;
+  max-width: 520px;
+  border-radius: 28px;
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.2);
 }
 
 .timeline {

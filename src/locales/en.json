@@ -1,63 +1,67 @@
 {
   "brand": {
-    "name": "LinguaBridge Technologies",
-    "tagline": "AI-powered multilingual experiences that help brands cross language barriers and reach every customer."
+    "name": "Timekettle",
+    "tagline": "AI-driven translation devices that help people understand each other instantly."
   },
   "languages": {
     "en": "English",
     "zh": "中文"
   },
   "seo": {
-    "siteName": "LinguaBridge Technologies",
+    "siteName": "Timekettle",
     "default": {
-      "title": "LinguaBridge Technologies | Global multilingual experience platform",
-      "description": "LinguaBridge Technologies removes communication barriers for global brands with AI-driven multilingual products and services that cover strategy, experience, and operations end to end.",
-      "keywords": "multilingual AI, intelligent support, language experience, global operations, language models"
+      "title": "Timekettle | AI translation earbuds and simultaneous interpreting solutions",
+      "description": "Founded in 2016 in Shenzhen, Timekettle combines AI speech technology with award-winning hardware to deliver real-time translation for business, education, travel, and more.",
+      "keywords": "Timekettle, translation earbuds, AI interpreter, simultaneous interpreting, real-time translation"
     },
     "home": {
-      "title": "LinguaBridge Technologies | Every conversation beyond language",
-      "description": "See how LinguaBridge Technologies deploys proprietary language models to deliver ready-to-launch multilingual experiences in 171+ countries.",
-      "keywords": "multilingual support, language model, global customer experience"
+      "title": "Timekettle | Communication is Connection",
+      "description": "Discover how Timekettle powers conversations across 171+ countries with Babel OS 2.0 and flagship translation earbuds.",
+      "keywords": "Timekettle website, translation earbuds, Babel OS 2.0, AI simultaneous interpreting"
     },
     "about": {
-      "title": "About LinguaBridge Technologies | Multilingual experience specialists",
-      "description": "Meet the interdisciplinary team behind LinguaBridge Technologies and discover how we scaled multilingual products from Shenzhen to the world.",
-      "keywords": "multilingual AI team, global product, language technology, Shenzhen AI company"
+      "title": "About Timekettle | Leader in AI translation hardware",
+      "description": "Meet the team behind Timekettle and explore the milestones that took us from Shenzhen to 171+ countries with multiple international design awards.",
+      "keywords": "Timekettle story, translation earbuds history, Shenzhen AI hardware"
     },
     "services": {
-      "title": "Core products | LinguaBridge Technologies",
-      "description": "Explore LinguaBridge Technologies' multilingual product lineup spanning T1, W4, W4 Pro, and X1 to power support, meetings, content collaboration, and developer experiences.",
-      "keywords": "T1 interpreter, W4 meeting assistant, W4 Pro collaboration, X1 language hub"
+      "title": "Product lineup | Timekettle translation devices and platforms",
+      "description": "Explore T1, W4, W4 Pro, X1, and supporting services tailored to business meetings, travel, education, and enterprise collaboration.",
+      "keywords": "T1 translation device, W4 earbuds, W4 Pro interpreter, X1 translation hub"
     },
     "cases": {
-      "title": "Industry case studies | LinguaBridge client impact",
-      "description": "Review LinguaBridge deployments across cross-border retail, aviation services, and financial compliance.",
-      "keywords": "multilingual support case study, aviation voice assistant, financial KYC, global CX"
+      "title": "Case studies | Timekettle customer success",
+      "description": "See how Timekettle products deliver value in business, tourism, education, and public service scenarios.",
+      "keywords": "translation earbud case study, enterprise interpreting, multilingual solutions"
     },
     "news": {
-      "title": "Insights from LinguaBridge",
-      "description": "Stay current on cross-language interaction design, real-time translation engines, and global operations best practices.",
-      "keywords": "cross-language experience, real-time translation, global operations, multilingual AI"
+      "title": "News & insights | Timekettle",
+      "description": "Stay up to date with Timekettle product launches, technology deep dives, and media coverage around the world.",
+      "keywords": "Timekettle news, translation technology, media coverage"
     },
     "contact": {
-      "title": "Contact LinguaBridge | Schedule a multilingual assessment",
-      "description": "Connect with LinguaBridge Technologies for a multilingual readiness report and tailored product trial.",
-      "keywords": "multilingual assessment, language AI partner, global support, LinguaBridge"
+      "title": "Contact Timekettle | Book a product experience",
+      "description": "Reach out to the Timekettle team for enterprise deployment guidance and product trials tailored to your use case.",
+      "keywords": "Timekettle contact, translation earbud trial, business inquiry"
     }
   },
   "navigation": {
     "home": "Home",
     "about": "About",
-    "services": "Services",
+    "services": "Products",
     "cases": "Case Studies",
-    "news": "Insights",
+    "news": "News",
     "contact": "Contact"
   },
   "home": {
     "hero": {
-      "title": "Every conversation beyond language",
-      "subtitle": "Our proprietary language models and streaming speech tech deliver end-to-end multilingual experiences for global brands.",
-      "cta": "Book a multilingual assessment"
+      "title": "Communication is Connection",
+      "subtitle": "Timekettle fuses AI speech technology with purposeful industrial design to deliver real-time translation for meetings, classrooms, and journeys worldwide.",
+      "cta": "Book a demo",
+      "media": {
+        "src": "/images/hero-timekettle.svg",
+        "alt": "Illustration of Timekettle AI simultaneous interpreting earbuds"
+      }
     },
     "stats": [
       {
@@ -65,154 +69,360 @@
         "label": "Countries and regions served"
       },
       {
-        "value": "65",
-        "label": "Languages supported in real time"
+        "value": "200K+",
+        "label": "Global users"
       },
       {
-        "value": "98M+",
-        "label": "Annual cross-language interactions"
+        "value": "4,300+",
+        "label": "Industry customers"
       }
     ],
     "pillars": {
-      "title": "Our pillars for multilingual trust",
-      "subtitle": "We safeguard brand voice, translation accuracy, and data integrity to build dependable global communication.",
+      "title": "What makes translation effortless",
+      "subtitle": "Babel OS 2.0, curated language corpora, and multi-form factor devices keep conversations natural in any scenario.",
       "items": [
         {
-          "title": "Consistent brand voice",
-          "description": "Brand-trained language models keep support and marketing content aligned across every language."
+          "title": "AI simultaneous interpreting",
+          "description": "Bidirectional interpretation for multi-speaker meetings, lectures, and events with live captions."
         },
         {
-          "title": "Trusted translation",
-          "description": "Industry-leading speech recognition with <1.5% WER and context-aware neural translation."
+          "title": "Scenario vocabularies",
+          "description": "Specialized glossaries for business, medical, education, and travel contexts preserve professional nuance."
         },
         {
-          "title": "Global compliance",
-          "description": "ISO/IEC 27001 and GDPR-audited deployments ensure privacy and sovereignty across regions."
+          "title": "Wearable and mobile hardware",
+          "description": "Earbuds, translators, and hubs designed for portability with offline-ready performance."
+        }
+      ]
+    },
+    "featuredProducts": {
+      "title": "Flagship highlights",
+      "subtitle": "Match the right device to every translation scenario, from individual travelers to enterprise teams.",
+      "items": [
+        {
+          "title": "W4 Pro AI Interpreter Earbuds",
+          "description": "Our flagship earbuds deliver 40+ language interpreting with shared captions for meetings, training, and events.",
+          "cta": "Discover W4 Pro",
+          "image": "/images/w4pro-earbuds.svg",
+          "imageAlt": "Stylized illustration of W4 Pro earbuds resting beside a charging case"
+        },
+        {
+          "title": "T1 Pocket Translator",
+          "description": "A dual-mode device with an independent screen that supports instant business and public service conversations.",
+          "cta": "Explore T1",
+          "image": "/images/t1-translator.svg",
+          "imageAlt": "Stylized illustration of the T1 translator handheld device"
+        },
+        {
+          "title": "X1 AI Translation Hub",
+          "description": "An enterprise console that manages devices, corpora, and accounts with APIs and terminology sync.",
+          "cta": "See X1",
+          "image": "/images/x1-hub.svg",
+          "imageAlt": "Stylized illustration of the X1 translation management hub interface"
+        }
+      ]
+    },
+    "technology": {
+      "title": "Inside Babel OS 2.0",
+      "subtitle": "Proprietary speech recognition, noise reduction, and machine translation engines deliver reliable interpreting.",
+      "features": [
+        {
+          "title": "Hybrid offline + cloud",
+          "description": "On-device chips collaborate with cloud models so translation stays accurate even with limited connectivity."
+        },
+        {
+          "title": "Multi-party conversation control",
+          "description": "Support mixed devices and speakers, auto-identify participants, and export structured meeting notes."
+        },
+        {
+          "title": "Award-winning design",
+          "description": "Recognized by CES Innovation Awards, iF Design Award, and praised by BBC, The New York Times, and Forbes."
+        }
+      ],
+      "cta": "Explore the tech"
+    },
+    "caseHighlights": {
+      "title": "Real-world deployments",
+      "subtitle": "Office towers, tourist attractions, schools, police stations, and churches trust Timekettle to bridge languages.",
+      "items": [
+        {
+          "title": "Travel companion",
+          "description": "Zero pocket translators help travelers hold 60+ language conversations with an average of 100 minutes of daily use."
+        },
+        {
+          "title": "Education and public service",
+          "description": "W Series earbuds support lessons and interviews with live captioning for schools and public safety agencies."
+        }
+      ]
+    },
+    "news": {
+      "title": "Latest updates",
+      "items": [
+        {
+          "title": "Timekettle wins the 2024 CES Innovation Award",
+          "description": "W4 Pro is celebrated for its simultaneous interpreting experience and industrial design excellence."
+        },
+        {
+          "title": "Babel OS 2.0 goes live",
+          "description": "Hybrid engines and refreshed domain vocabularies make enterprise deployments easier to manage."
+        },
+        {
+          "title": "X1 platform opens its APIs",
+          "description": "Developers can embed transcription, caption sharing, and translation services for custom solutions."
+        }
+      ],
+      "cta": "Visit the news hub"
+    },
+    "support": {
+      "title": "Support shortcuts",
+      "links": [
+        {
+          "label": "Download the Timekettle App",
+          "description": "iOS / Android packages and firmware updates",
+          "href": "https://cn.timekettle.co/pages/app"
+        },
+        {
+          "label": "Product tutorials",
+          "description": "Quick start guides and video lessons",
+          "href": "https://cn.timekettle.co/pages/support"
+        },
+        {
+          "label": "Service & warranty",
+          "description": "Warranty policy, repair process, and FAQs",
+          "href": "https://cn.timekettle.co/pages/warranty"
         }
       ]
     }
   },
   "about": {
     "intro": {
-      "title": "An interdisciplinary team closing language gaps",
-      "subtitle": "Founded in Shenzhen in 2016, LinguaBridge Technologies unites linguists, acoustic scientists, and engineers around the mission of making the world instantly understood."
+      "title": "Making the world instantly understood",
+      "subtitle": "Timekettle Technology Co., Ltd. was founded in 2016 in Shenzhen’s Nanshan District. Our teams across speech science, acoustics, algorithms, and industrial design focus on breakthroughs in cross-language communication.",
+      "media": {
+        "src": "/images/team-collaboration.svg",
+        "alt": "Illustration of Timekettle teams collaborating around AI translation interfaces"
+      }
+    },
+    "values": {
+      "title": "Mission and values",
+      "items": [
+        {
+          "title": "Mission",
+          "description": "Combine AI and hardware to remove language barriers for people everywhere."
+        },
+        {
+          "title": "Vision",
+          "description": "Lead the global market for translation earbuds and cross-language technologies."
+        },
+        {
+          "title": "Core values",
+          "description": "Communication creates connection, user value first, innovation for the long term."
+        }
+      ]
     },
     "timeline": {
       "title": "Milestones",
       "items": [
         {
           "year": "2016",
-          "description": "LinguaBridge Technologies launches with a real-time speech translation prototype and a promise to bridge language divides."
+          "description": "Timekettle launches in Shenzhen with its first real-time translation prototype and the belief that communication creates connection."
         },
         {
           "year": "2018",
-          "description": "T1 smart interpreter ships to market and powers multilingual summits across 20+ convention centers."
+          "description": "Zero pocket translator debuts for travelers, surpassing 50,000 users worldwide."
         },
         {
-          "year": "2021",
-          "description": "Global footprint expands to 171+ countries while cloud language latency drops to 180 ms."
+          "year": "2020",
+          "description": "W3 flagship translation earbuds arrive, bringing wearable simultaneous interpreting to business and education."
         },
         {
-          "year": "2023",
-          "description": "W4 Pro earns the Global CX Tech Awards “Language Experience Product of the Year” as X1 language hub reaches its next generation."
+          "year": "2022",
+          "description": "W4 Pro and the X1 platform roll out as industry customers pass 4,300 across 171+ countries."
+        },
+        {
+          "year": "2024",
+          "description": "Babel OS 2.0 launches, monthly translation characters exceed one billion, and global media attention continues to grow."
         }
       ]
+    },
+    "team": {
+      "title": "Leadership and teams",
+      "description": "Led by CEO Leal Tian, our interdisciplinary team spans speech recognition, chip design, industrial design, and global operations to bring products from China to the world."
+    },
+    "recognition": {
+      "title": "Global recognition",
+      "items": [
+        "Winner of CES Innovation Awards, iF Design Award, and China Red Star Award",
+        "Featured by BBC, The New York Times, Forbes, TechCrunch, and more as a “sci-fi like product”",
+        "Shipped to 171+ countries and ranked #1 worldwide in the translation earbud category"
+      ]
+    },
+    "experience": {
+      "title": "Experience centers",
+      "description": "Schedule a visit to our Shenzhen headquarters or connect with authorized partners worldwide for hands-on demos and enterprise consultation."
+    },
+    "careers": {
+      "title": "Careers",
+      "description": "We are hiring across speech algorithms, hardware engineering, product design, and international go-to-market—join us to shape the future of cross-language communication."
     }
   },
   "services": {
     "intro": {
-      "title": "Our core product lineup",
-      "subtitle": "Built on proprietary language models to power support, meetings, content collaboration, and developer platforms."
-    },
-    "items": [
-      {
-        "title": "T1 Smart Interpreter",
-        "description": "Hybrid translation hardware with domain glossaries for on-site events and executive negotiations."
-      },
-      {
-        "title": "W4 Meeting Assistant",
-        "description": "Cloud meeting capture with subtitles and multilingual summaries compatible with major conferencing platforms."
-      },
-      {
-        "title": "W4 Pro Collaboration",
-        "description": "Global content workspace featuring persona tone templates and brand terminology management."
-      },
-      {
-        "title": "X1 Language Hub",
-        "description": "Unified APIs for speech, text, and conversational translation so developers can embed multilingual capabilities fast."
+      "title": "Product ecosystem",
+      "subtitle": "Comprehensive solutions built around earbuds, translators, and platform services.",
+      "media": {
+        "src": "/images/services-ecosystem.svg",
+        "alt": "Diagram of Timekettle translation ecosystem connecting devices and software"
       }
-    ]
+    },
+    "segments": {
+      "consumer": {
+        "title": "Consumer lineup",
+        "items": [
+          {
+            "title": "W4 Translation Earbuds",
+            "description": "Wearable translation for travel and social encounters with instant captions and voice playback."
+          },
+          {
+            "title": "W4 Pro Business Kit",
+            "description": "Dual-ear interpreting with shared captions across devices, ideal for meetings, training, and hosted events."
+          },
+          {
+            "title": "Zero Pocket Translator",
+            "description": "Plug-and-play translator with a four-microphone array, perfect for on-the-go conversations."
+          }
+        ]
+      },
+      "enterprise": {
+        "title": "Enterprise & education",
+        "items": [
+          {
+            "title": "T1 Portable Interpreter",
+            "description": "A handheld device with dual microphones and a dedicated screen for business receptions and public service counters."
+          },
+          {
+            "title": "X1 AI Translation Hub",
+            "description": "Manage devices, corpora, and accounts from one console with APIs, terminology sync, and meeting minutes."
+          },
+          {
+            "title": "Multilingual classroom solution",
+            "description": "Combine earbuds and caption displays to support schools and training organizations with multi-language teaching."
+          }
+        ]
+      }
+    },
+    "technology": {
+      "title": "Technology & services",
+      "items": [
+        {
+          "title": "Babel OS 2.0",
+          "description": "End-to-end speech recognition, noise suppression, and machine translation with synchronized device upgrades."
+        },
+        {
+          "title": "Domain terminology center",
+          "description": "Import enterprise glossaries and scenario vocabularies to maintain brand consistency."
+        },
+        {
+          "title": "Global after-sales support",
+          "description": "Service coverage across 171+ countries with remote diagnostics and local maintenance partners."
+        }
+      ]
+    }
   },
   "cases": {
     "intro": {
-      "title": "Impact stories",
-      "subtitle": "We partner with market leaders to build measurable multilingual experiences."
+      "title": "Case studies",
+      "subtitle": "Timekettle delivers measurable impact across business, tourism, education, and public service."
     },
     "items": [
       {
-        "title": "Omnichannel support for cross-border retail",
-        "description": "After deploying W4 Pro, response times in 35 languages dropped by 68% and quarterly GMV climbed 22%."
+        "title": "Multinational business summits",
+        "description": "Deploying W4 Pro for a 500-attendee conference delivered 95% caption accuracy and smoother exchanges."
       },
       {
-        "title": "Real-time aviation voice assistant",
-        "description": "T1 devices streamline multilingual check-in workflows, raising passenger satisfaction to 4.8/5."
+        "title": "International classrooms",
+        "description": "Schools in Shenzhen and Los Angeles rely on our classroom solution to keep international students in sync with lessons."
       },
       {
-        "title": "Financial compliance KYC automation",
-        "description": "X1 language hub powers document analysis across borders, improving onboarding efficiency by 3.2x."
+        "title": "Smart tourism guidance",
+        "description": "Zero translators provide 60+ language tours at major attractions, raising visitor satisfaction to 4.9/5."
+      },
+      {
+        "title": "Public service counters",
+        "description": "Police departments and hospitals use T1 devices for multilingual intake, improving efficiency by 30%."
       }
     ]
   },
   "news": {
     "intro": {
-      "title": "Latest insights",
-      "subtitle": "Practical guidance on multilingual design, real-time translation tech, and scaling global operations."
+      "title": "News",
+      "subtitle": "Explore product updates, technology stories, and industry coverage from Timekettle."
     },
     "articles": [
       {
-        "title": "From speech to tone: Crafting a brand voice for 171 countries",
-        "description": "How we protect brand consistency with domain-specific glossaries."
+        "title": "W4 Pro tops the global translation earbud market",
+        "description": "A 2024 industry report highlights Timekettle’s leading market share and ecosystem advantages."
       },
       {
-        "title": "Inside W4 Pro’s Language Experience Product of the Year win",
-        "description": "A look at the hybrid reasoning engine that boosts multilingual meeting accuracy."
+        "title": "How AI interpreting transforms classrooms",
+        "description": "An international school in Shenzhen shares its results with Timekettle’s multilingual teaching toolkit."
       },
       {
-        "title": "Operating multilingual support with compliance first",
-        "description": "Best practices for data residency, privacy masking, and human-in-the-loop reviews."
+        "title": "Global media chronicles Timekettle’s journey",
+        "description": "Roundup of features from BBC, The New York Times, Forbes, and more describing our “sci-fi” products."
       }
     ],
     "readMore": "Read more"
   },
   "contact": {
     "intro": {
-      "title": "Start your next stage of multilingual growth",
-      "subtitle": "Tell us about your target markets and channels—our consultants will reply within 48 hours with quantified insights and trial access."
+      "title": "Start a multilingual partnership",
+      "subtitle": "Tell us about your goals—we’ll respond within 48 hours with tailored trials or deployment guidance.",
+      "media": {
+        "src": "/images/shenzhen-hq-map.svg",
+        "alt": "Stylized map showing Timekettle headquarters in Shenzhen"
+      }
     },
     "form": {
       "name": "Name",
-      "email": "Work Email",
+      "email": "Work email",
       "company": "Company",
       "message": "Project goals",
       "submit": "Submit"
     },
     "details": {
       "title": "Connect with us",
-      "description": "LinguaBridge consultants operate across time zones with bilingual support—book a live demo anytime.",
-      "phone": "Phone: +86 755 8670 1120",
-      "email": "Email: hello@linguabridge.ai"
+      "description": "Our bilingual consultants can arrange demos at the Shenzhen experience center or online.",
+      "phone": "Phone: +86 187 8207 2944",
+      "email": "Email: 18782072944@163.com",
+      "address": "Address: Le Pu Building, Nanshan District, Shenzhen, China"
     }
   },
   "footer": {
     "contact": {
       "title": "Contact",
-      "address": "21F, Nanshan Software Park, Shenzhen, China",
-      "phone": "+86 755 8670 1120",
-      "email": "hello@linguabridge.ai"
+      "address": "Le Pu Building, Nanshan District, Shenzhen, China",
+      "phone": "+86 187 8207 2944",
+      "email": "18782072944@163.com"
+    },
+    "social": {
+      "title": "Follow us",
+      "links": [
+        {
+          "label": "Weibo",
+          "href": "https://weibo.com/timekettle",
+          "aria": "Visit the official Timekettle Weibo account"
+        },
+        {
+          "label": "X (Twitter)",
+          "href": "https://x.com/TimekettleTech",
+          "aria": "Visit the official Timekettle X account"
+        }
+      ]
     },
     "quickLinks": {
       "title": "Quick links"
     },
-    "copyright": "© {year} LinguaBridge Technologies. All rights reserved."
+    "copyright": "© {year} Timekettle. All rights reserved."
   }
 }

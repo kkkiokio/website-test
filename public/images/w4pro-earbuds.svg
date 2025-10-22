@@ -1,0 +1,30 @@
+<svg width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dbeafe" />
+      <stop offset="1" stop-color="#e0e7ff" />
+    </linearGradient>
+    <linearGradient id="earbud" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f172a" />
+      <stop offset="1" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="stem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d4ed8" />
+      <stop offset="1" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+  <rect x="32" y="32" width="576" height="416" rx="48" fill="url(#bg)" />
+  <g transform="translate(160 120)">
+    <path d="M112 24c-44 0-80 36-80 80s36 80 80 80 80-36 80-80-36-80-80-80z" fill="white" opacity="0.92" />
+    <path d="M112 60c-24 0-44 20-44 44s20 44 44 44 44-20 44-44-20-44-44-44z" fill="url(#earbud)" />
+    <rect x="96" y="172" width="32" height="112" rx="16" fill="url(#stem)" />
+    <circle cx="112" cy="232" r="16" fill="#0ea5e9" />
+  </g>
+  <g transform="translate(320 140)">
+    <rect x="0" y="0" width="168" height="200" rx="32" fill="white" opacity="0.92" />
+    <rect x="20" y="28" width="128" height="60" rx="24" fill="#1d4ed8" opacity="0.18" />
+    <rect x="20" y="108" width="128" height="16" rx="8" fill="#94a3b8" opacity="0.6" />
+    <rect x="20" y="136" width="88" height="16" rx="8" fill="#cbd5f5" opacity="0.6" />
+    <rect x="20" y="164" width="64" height="12" rx="6" fill="#cbd5f5" opacity="0.6" />
+  </g>
+</svg>

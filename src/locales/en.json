@@ -1,48 +1,48 @@
 {
   "brand": {
-    "name": "AI Innovate Solutions",
-    "tagline": "Accelerating smart enterprises with full-stack artificial intelligence consulting and engineering."
+    "name": "LinguaBridge Technologies",
+    "tagline": "AI-powered multilingual experiences that help brands cross language barriers and reach every customer."
   },
   "languages": {
     "en": "English",
     "zh": "中文"
   },
   "seo": {
-    "siteName": "AI Innovate Solutions",
+    "siteName": "LinguaBridge Technologies",
     "default": {
-      "title": "AI Innovate Solutions | Intelligent innovation for global enterprises",
-      "description": "AI Innovate Solutions partners with enterprise teams to design, build, and scale responsible AI products that unlock measurable business outcomes.",
-      "keywords": "AI consulting, machine learning engineering, enterprise AI, digital transformation, data strategy, MLOps"
+      "title": "LinguaBridge Technologies | Global multilingual experience platform",
+      "description": "LinguaBridge Technologies removes communication barriers for global brands with AI-driven multilingual products and services that cover strategy, experience, and operations end to end.",
+      "keywords": "multilingual AI, intelligent support, language experience, global operations, language models"
     },
     "home": {
-      "title": "AI Innovate Solutions | Intelligent innovation for global enterprises",
-      "description": "Discover how AI Innovate Solutions blends strategy, design, and engineering to launch human-centered AI initiatives with measurable ROI.",
-      "keywords": "AI strategy, responsible AI, AI innovation, digital transformation partner"
+      "title": "LinguaBridge Technologies | Every conversation beyond language",
+      "description": "See how LinguaBridge Technologies deploys proprietary language models to deliver ready-to-launch multilingual experiences in 171+ countries.",
+      "keywords": "multilingual support, language model, global customer experience"
     },
     "about": {
-      "title": "About AI Innovate Solutions | Bilingual team of applied AI experts",
-      "description": "Meet the bilingual researchers, designers, and engineers behind AI Innovate Solutions and explore the milestones that shaped our global practice.",
-      "keywords": "AI experts, Shenzhen AI company, applied AI team, AI innovation lab"
+      "title": "About LinguaBridge Technologies | Multilingual experience specialists",
+      "description": "Meet the interdisciplinary team behind LinguaBridge Technologies and discover how we scaled multilingual products from Shenzhen to the world.",
+      "keywords": "multilingual AI team, global product, language technology, Shenzhen AI company"
     },
     "services": {
-      "title": "Enterprise AI services | AI Innovate Solutions",
-      "description": "Explore AI Innovate Solutions' end-to-end services from strategy and data infrastructure to product engineering and model lifecycle management.",
-      "keywords": "AI services, data infrastructure, product engineering, MLOps, AI enablement"
+      "title": "Core products | LinguaBridge Technologies",
+      "description": "Explore LinguaBridge Technologies' multilingual product lineup spanning T1, W4, W4 Pro, and X1 to power support, meetings, content collaboration, and developer experiences.",
+      "keywords": "T1 interpreter, W4 meeting assistant, W4 Pro collaboration, X1 language hub"
     },
     "cases": {
-      "title": "AI case studies | AI Innovate Solutions client impact",
-      "description": "Review AI Innovate Solutions case studies featuring predictive maintenance, personalized retail experiences, and real-time risk intelligence.",
-      "keywords": "AI case studies, predictive maintenance, retail AI, risk intelligence"
+      "title": "Industry case studies | LinguaBridge client impact",
+      "description": "Review LinguaBridge deployments across cross-border retail, aviation services, and financial compliance.",
+      "keywords": "multilingual support case study, aviation voice assistant, financial KYC, global CX"
     },
     "news": {
-      "title": "Insights from AI Innovate Solutions",
-      "description": "Read the latest insights from AI Innovate Solutions on responsible generative AI, multilingual conversational agents, and scaling MLOps.",
-      "keywords": "AI insights, generative AI governance, multilingual AI, MLOps best practices"
+      "title": "Insights from LinguaBridge",
+      "description": "Stay current on cross-language interaction design, real-time translation engines, and global operations best practices.",
+      "keywords": "cross-language experience, real-time translation, global operations, multilingual AI"
     },
     "contact": {
-      "title": "Contact AI Innovate Solutions | Book a strategy call",
-      "description": "Connect with AI Innovate Solutions to design your next AI win and schedule a bilingual strategy workshop tailored to your business goals.",
-      "keywords": "AI consultation, contact AI Innovate Solutions, AI workshop, enterprise AI partner"
+      "title": "Contact LinguaBridge | Schedule a multilingual assessment",
+      "description": "Connect with LinguaBridge Technologies for a multilingual readiness report and tailored product trial.",
+      "keywords": "multilingual assessment, language AI partner, global support, LinguaBridge"
     }
   },
   "navigation": {
@@ -55,139 +55,139 @@
   },
   "home": {
     "hero": {
-      "title": "Intelligent innovation for the real world",
-      "subtitle": "We partner with ambitious teams to design, build, and scale human-centered AI products that unlock measurable business outcomes.",
-      "cta": "Book a strategy call"
+      "title": "Every conversation beyond language",
+      "subtitle": "Our proprietary language models and streaming speech tech deliver end-to-end multilingual experiences for global brands.",
+      "cta": "Book a multilingual assessment"
     },
     "stats": [
       {
-        "value": "120+",
-        "label": "Enterprise AI projects delivered"
+        "value": "171+",
+        "label": "Countries and regions served"
       },
       {
-        "value": "35%",
-        "label": "Average efficiency gained"
+        "value": "65",
+        "label": "Languages supported in real time"
       },
       {
-        "value": "18",
-        "label": "Industries transformed"
+        "value": "98M+",
+        "label": "Annual cross-language interactions"
       }
     ],
     "pillars": {
-      "title": "Why leaders choose us",
-      "subtitle": "We combine domain expertise, pragmatic experimentation, and enterprise-grade engineering to deliver resilient AI solutions.",
+      "title": "Our pillars for multilingual trust",
+      "subtitle": "We safeguard brand voice, translation accuracy, and data integrity to build dependable global communication.",
       "items": [
         {
-          "title": "Strategic alignment",
-          "description": "Roadmaps anchored in your business KPIs, paired with measurable success frameworks."
+          "title": "Consistent brand voice",
+          "description": "Brand-trained language models keep support and marketing content aligned across every language."
         },
         {
-          "title": "Responsible AI",
-          "description": "Governance-first approach across data privacy, bias mitigation, and model observability."
+          "title": "Trusted translation",
+          "description": "Industry-leading speech recognition with <1.5% WER and context-aware neural translation."
         },
         {
-          "title": "Trusted delivery",
-          "description": "Dedicated cross-functional squads delivering shippable increments every two weeks."
+          "title": "Global compliance",
+          "description": "ISO/IEC 27001 and GDPR-audited deployments ensure privacy and sovereignty across regions."
         }
       ]
     }
   },
   "about": {
     "intro": {
-      "title": "A bilingual team of applied AI practitioners",
-      "subtitle": "Founded in Shenzhen, AI Innovate Solutions brings together researchers, designers, and cloud engineers to modernize operations for global clients."
+      "title": "An interdisciplinary team closing language gaps",
+      "subtitle": "Founded in Shenzhen in 2016, LinguaBridge Technologies unites linguists, acoustic scientists, and engineers around the mission of making the world instantly understood."
     },
     "timeline": {
       "title": "Milestones",
       "items": [
         {
+          "year": "2016",
+          "description": "LinguaBridge Technologies launches with a real-time speech translation prototype and a promise to bridge language divides."
+        },
+        {
           "year": "2018",
-          "description": "Company founded with a mission to close the AI adoption gap for manufacturers."
+          "description": "T1 smart interpreter ships to market and powers multilingual summits across 20+ convention centers."
         },
         {
-          "year": "2020",
-          "description": "Launched our ModelOps platform and expanded to finance and retail verticals."
-        },
-        {
-          "year": "2022",
-          "description": "Certified as a strategic partner by three Fortune Global 500 enterprises."
+          "year": "2021",
+          "description": "Global footprint expands to 171+ countries while cloud language latency drops to 180 ms."
         },
         {
           "year": "2023",
-          "description": "Opened Singapore innovation lab to support Southeast Asia expansion."
+          "description": "W4 Pro earns the Global CX Tech Awards “Language Experience Product of the Year” as X1 language hub reaches its next generation."
         }
       ]
     }
   },
   "services": {
     "intro": {
-      "title": "End-to-end services",
-      "subtitle": "From discovery to production, we co-create intelligent solutions that elevate customer experiences and operational resilience."
+      "title": "Our core product lineup",
+      "subtitle": "Built on proprietary language models to power support, meetings, content collaboration, and developer platforms."
     },
     "items": [
       {
-        "title": "AI Strategy & Enablement",
-        "description": "Maturity assessments, executive workshops, and value mapping to prioritize initiatives that deliver ROI within 90 days."
+        "title": "T1 Smart Interpreter",
+        "description": "Hybrid translation hardware with domain glossaries for on-site events and executive negotiations."
       },
       {
-        "title": "Data Infrastructure Modernization",
-        "description": "Cloud-native data lakes, streaming pipelines, and governance frameworks tailored for regulated industries."
+        "title": "W4 Meeting Assistant",
+        "description": "Cloud meeting capture with subtitles and multilingual summaries compatible with major conferencing platforms."
       },
       {
-        "title": "Product Engineering",
-        "description": "Design sprints, rapid prototyping, and full-stack development for AI-powered applications across web and mobile."
+        "title": "W4 Pro Collaboration",
+        "description": "Global content workspace featuring persona tone templates and brand terminology management."
       },
       {
-        "title": "Model Lifecycle Management",
-        "description": "Responsible AI, monitoring, and retraining pipelines ensuring mission-critical models remain accurate and compliant."
+        "title": "X1 Language Hub",
+        "description": "Unified APIs for speech, text, and conversational translation so developers can embed multilingual capabilities fast."
       }
     ]
   },
   "cases": {
     "intro": {
       "title": "Impact stories",
-      "subtitle": "We help market leaders ship AI responsibly. Explore a selection of recent engagements."
+      "subtitle": "We partner with market leaders to build measurable multilingual experiences."
     },
     "items": [
       {
-        "title": "Predictive maintenance for smart factories",
-        "description": "Implemented edge-to-cloud analytics for a robotics manufacturer, cutting downtime by 42% and saving $3.8M annually."
+        "title": "Omnichannel support for cross-border retail",
+        "description": "After deploying W4 Pro, response times in 35 languages dropped by 68% and quarterly GMV climbed 22%."
       },
       {
-        "title": "Hyper-personalized retail journeys",
-        "description": "Delivered recommendation models for an omnichannel retailer, boosting conversion rates by 27% within six months."
+        "title": "Real-time aviation voice assistant",
+        "description": "T1 devices streamline multilingual check-in workflows, raising passenger satisfaction to 4.8/5."
       },
       {
-        "title": "Real-time risk intelligence",
-        "description": "Built a knowledge graph solution for a financial services firm to proactively detect fraudulent entities."
+        "title": "Financial compliance KYC automation",
+        "description": "X1 language hub powers document analysis across borders, improving onboarding efficiency by 3.2x."
       }
     ]
   },
   "news": {
     "intro": {
       "title": "Latest insights",
-      "subtitle": "Thought leadership and practical guidance for technology decision makers navigating the AI era."
+      "subtitle": "Practical guidance on multilingual design, real-time translation tech, and scaling global operations."
     },
     "articles": [
       {
-        "title": "A pragmatic checklist for responsible generative AI",
-        "description": "Operational guardrails that balance innovation velocity with compliance requirements."
+        "title": "From speech to tone: Crafting a brand voice for 171 countries",
+        "description": "How we protect brand consistency with domain-specific glossaries."
       },
       {
-        "title": "Designing multilingual conversational agents",
-        "description": "How to orchestrate language models, knowledge bases, and human handoff for enterprise support."
+        "title": "Inside W4 Pro’s Language Experience Product of the Year win",
+        "description": "A look at the hybrid reasoning engine that boosts multilingual meeting accuracy."
       },
       {
-        "title": "Scaling MLOps in regulated markets",
-        "description": "Lessons from deploying automated monitoring in finance, healthcare, and energy sectors."
+        "title": "Operating multilingual support with compliance first",
+        "description": "Best practices for data residency, privacy masking, and human-in-the-loop reviews."
       }
     ],
     "readMore": "Read more"
   },
   "contact": {
     "intro": {
-      "title": "Let’s design your next AI win",
-      "subtitle": "Share your goals and we will assemble a cross-functional squad to co-create the roadmap."
+      "title": "Start your next stage of multilingual growth",
+      "subtitle": "Tell us about your target markets and channels—our consultants will reply within 48 hours with quantified insights and trial access."
     },
     "form": {
       "name": "Name",
@@ -198,21 +198,21 @@
     },
     "details": {
       "title": "Connect with us",
-      "description": "We respond within two business days and can schedule bilingual workshops across time zones.",
-      "phone": "Phone: +86 755 8899 3200",
-      "email": "Email: hello@aiinnovate.global"
+      "description": "LinguaBridge consultants operate across time zones with bilingual support—book a live demo anytime.",
+      "phone": "Phone: +86 755 8670 1120",
+      "email": "Email: hello@linguabridge.ai"
     }
   },
   "footer": {
     "contact": {
       "title": "Contact",
       "address": "21F, Nanshan Software Park, Shenzhen, China",
-      "phone": "+86 755 8899 3200",
-      "email": "hello@aiinnovate.global"
+      "phone": "+86 755 8670 1120",
+      "email": "hello@linguabridge.ai"
     },
     "quickLinks": {
       "title": "Quick links"
     },
-    "copyright": "© {year} AI Innovate Solutions. All rights reserved."
+    "copyright": "© {year} LinguaBridge Technologies. All rights reserved."
   }
 }

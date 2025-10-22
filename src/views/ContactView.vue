@@ -30,6 +30,7 @@
           <p style="margin: 0; color: #475569;">{{ t('contact.details.description') }}</p>
           <p style="margin: 0;">{{ t('contact.details.phone') }}</p>
           <p style="margin: 0;">{{ t('contact.details.email') }}</p>
+          <p style="margin: 0;">{{ t('contact.details.address') }}</p>
         </div>
       </div>
     </div>

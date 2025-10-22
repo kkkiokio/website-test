@@ -57,7 +57,9 @@
     "hero": {
       "title": "沟通创造连接",
       "subtitle": "时空壶 Timekettle 结合 AI 语音技术与工业设计，为商务洽谈、课堂教学与全球出行提供随身的实时翻译体验。",
-      "cta": "预约产品体验"
+      "cta": "预约产品体验",
+      "image": "hero-banner",
+      "imageAlt": "时空壶旗舰翻译耳机及设备的展示场景"
     },
     "stats": [
       {
@@ -76,6 +78,8 @@
     "pillars": {
       "title": "跨场景翻译的核心价值",
       "subtitle": "Babel OS 2.0、多语种语料与多设备形态，让复杂语境也能稳定输出自然口语。",
+      "image": "collaboration-banner",
+      "imageAlt": "团队使用时空壶产品进行多语言沟通的场景",
       "items": [
         {
           "title": "AI 同传体验",
@@ -98,23 +102,31 @@
         {
           "title": "W4 Pro 商务同传耳机",
           "description": "旗舰翻译耳机，支持 40+ 语种实时互译与字幕共享，适合会议、培训与活动主持。",
-          "cta": "了解 W4 Pro"
+          "cta": "了解 W4 Pro",
+          "image": "w4-pro",
+          "imageAlt": "W4 Pro 商务同传耳机产品图"
         },
         {
           "title": "T1 随身翻译终端",
           "description": "双模翻译与独立屏幕，让商务出访、接待任务实现即开即用的实时沟通。",
-          "cta": "探索 T1"
+          "cta": "探索 T1",
+          "image": "t1",
+          "imageAlt": "T1 随身翻译终端产品图"
         },
         {
           "title": "X1 AI 翻译中枢",
           "description": "统一管理设备、语料与账号的企业级平台，提供 API 与行业词库同步。",
-          "cta": "查看 X1"
+          "cta": "查看 X1",
+          "image": "x1",
+          "imageAlt": "X1 AI 翻译中枢硬件示意图"
         }
       ]
     },
     "technology": {
       "title": "Babel OS 2.0 核心技术",
       "subtitle": "自研语音识别、降噪与机器翻译引擎协同，带来可靠的实时互译体验。",
+      "image": "technology-lab",
+      "imageAlt": "工程师调试 Babel OS 2.0 技术平台的画面",
       "features": [
         {
           "title": "离线 + 云端混合",
@@ -134,6 +146,8 @@
     "caseHighlights": {
       "title": "真实使用场景",
       "subtitle": "写字楼、旅游景点、学校、警察局乃至教堂，都在使用时空壶进行跨语言沟通。",
+      "image": "zero-translator",
+      "imageAlt": "Zero 随身翻译棒在旅行场景中的合影",
       "items": [
         {
           "title": "全球旅行沟通助手",

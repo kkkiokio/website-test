@@ -80,6 +80,83 @@ a {
   box-shadow: 0 25px 60px rgba(15, 23, 42, 0.16);
 }
 
+.hero__carousel {
+  position: relative;
+  width: 100%;
+  height: clamp(220px, 45vw, 520px);
+}
+
+.hero__slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  pointer-events: none;
+}
+
+.hero__slide--active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hero__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  border: none;
+  background-color: rgba(15, 23, 42, 0.4);
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.hero__nav span {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.hero__nav:hover {
+  background-color: rgba(15, 23, 42, 0.55);
+  transform: translateY(-50%) scale(1.05);
+}
+
+.hero__nav--prev {
+  left: 1.25rem;
+}
+
+.hero__nav--next {
+  right: 1.25rem;
+}
+
+.hero__indicators {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.5rem;
+}
+
+.hero__indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.hero__indicator--active {
+  background-color: #2563eb;
+  transform: scale(1.1);
+}
+
 .hero__image {
   display: block;
   width: 100%;
@@ -281,5 +358,41 @@ a {
 
   .split {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding: 3rem 0;
+  }
+
+  .hero {
+    gap: 2rem;
+  }
+
+  .hero__content {
+    text-align: center;
+    justify-items: center;
+  }
+
+  .hero__title {
+    font-size: clamp(2rem, 8vw, 2.75rem);
+  }
+
+  .hero__carousel {
+    height: clamp(200px, 62vw, 360px);
+  }
+
+  .hero__indicators {
+    bottom: 0.75rem;
+  }
+
+  .hero__nav {
+    width: 38px;
+    height: 38px;
+  }
+
+  .hero__stat-card {
+    padding: 1.5rem 1rem;
   }
 }

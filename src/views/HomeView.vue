@@ -8,7 +8,54 @@
           <p class="hero__subtitle">{{ hero.subtitle }}</p>
           <router-link class="button" to="/contact">{{ hero.cta }}</router-link>
         </div>
-        <figure v-if="heroImage" class="hero__media">
+        <div v-if="bannerImages.length" class="hero__media">
+          <div
+            class="hero__carousel"
+            @mouseenter="stopAutoplay"
+            @mouseleave="startAutoplay"
+          >
+            <div
+              v-for="(image, index) in bannerImages"
+              :key="image"
+              class="hero__slide"
+              :class="{ 'hero__slide--active': index === activeSlide }"
+            >
+              <img :src="image" :alt="heroImageAlt" class="hero__image" loading="eager" />
+            </div>
+
+            <button
+              v-if="bannerImages.length > 1"
+              type="button"
+              class="hero__nav hero__nav--prev"
+              @click="previousSlide"
+              aria-label="Previous banner"
+            >
+              <span aria-hidden="true">‹</span>
+            </button>
+            <button
+              v-if="bannerImages.length > 1"
+              type="button"
+              class="hero__nav hero__nav--next"
+              @click="nextSlide"
+              aria-label="Next banner"
+            >
+              <span aria-hidden="true">›</span>
+            </button>
+
+            <div v-if="bannerImages.length > 1" class="hero__indicators">
+              <button
+                v-for="(image, index) in bannerImages"
+                :key="`indicator-${image}`"
+                type="button"
+                class="hero__indicator"
+                :class="{ 'hero__indicator--active': index === activeSlide }"
+                @click="goToSlide(index)"
+                :aria-label="`Go to banner ${index + 1}`"
+              />
+            </div>
+          </div>
+        </div>
+        <figure v-else-if="heroImage" class="hero__media">
           <img :src="heroImage" :alt="heroImageAlt" class="hero__image" loading="eager" />
         </figure>
       </div>
@@ -132,7 +179,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed, onBeforeUnmount, onMounted, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 
 type Stat = {
@@ -163,10 +210,75 @@ import heroPrimaryImage from '@/assets/banner/ABUIABACGAAg2aCdlwYo-efnYTCADzisCQ
 import pillarsIllustrationImage from '@/assets/banner/ABUIABAEGAAgh4j-kgYolYrd6QYwgA84hAc.png.webp';
 import caseShowcaseImage from '@/assets/banner/ABUIABACGAAgr9j0rAYogJrV0QMwgA84uAg.jpg.webp';
 import technologyShowcaseImage from '@/assets/ABUIABACGAAgjOTfgwYo4K6sugQw7go4mAc!700x700.jpg.webp';
-import w4ProProductImage from '@/assets/w4 pro/ABUIABAEGAAg4KfXngYoyqGgpwcwqwI4qwI.png.webp';
-import t1ProductImage from '@/assets/ABUIABACGAAgwt-fgwYolrGT8AMw6wg48gU!600x600.jpg.webp';
-import x1ProductImage from '@/assets/ABUIABAEGAAgn4STqgYoy9PUsgYwpho4wxE!700x700.png.webp';
+import w4ProProductImage from '@/assets/w4 pro/71abae069af78fe6eadd5a8835192854.jpeg';
+import t1ProductImage from '@/assets/T1/90300414f1b6b6dd3c1f0097a939f0ca.jpeg';
+import x1ProductImage from '@/assets/x1/716434e3928da383bd8ecf6fe4517b34.jpeg';
 import zeroTranslatorImage from '@/assets/zero/ABUIABAEGAAg-6jXngYosIqsWzDmAjiJAg.png.webp';
+
+const bannerImageModules = import.meta.glob<{ default: string }>('@/assets/banner/*', {
+  eager: true
+});
+
+const bannerImages: string[] = Object.entries(bannerImageModules)
+  .sort(([pathA], [pathB]) => pathA.localeCompare(pathB))
+  .map(([, module]) => module.default);
+
+const activeSlide = ref(0);
+const autoplayDelay = 5000;
+let autoplayHandle: ReturnType<typeof window.setInterval> | undefined;
+
+const stopAutoplay = () => {
+  if (autoplayHandle !== undefined) {
+    window.clearInterval(autoplayHandle);
+    autoplayHandle = undefined;
+  }
+};
+
+const startAutoplay = () => {
+  if (bannerImages.length <= 1) {
+    return;
+  }
+
+  stopAutoplay();
+  autoplayHandle = window.setInterval(() => {
+    activeSlide.value = (activeSlide.value + 1) % bannerImages.length;
+  }, autoplayDelay);
+};
+
+const nextSlide = () => {
+  if (bannerImages.length === 0) {
+    return;
+  }
+
+  activeSlide.value = (activeSlide.value + 1) % bannerImages.length;
+  startAutoplay();
+};
+
+const previousSlide = () => {
+  if (bannerImages.length === 0) {
+    return;
+  }
+
+  activeSlide.value = (activeSlide.value - 1 + bannerImages.length) % bannerImages.length;
+  startAutoplay();
+};
+
+const goToSlide = (index: number) => {
+  if (index === activeSlide.value || bannerImages.length === 0) {
+    return;
+  }
+
+  activeSlide.value = index;
+  startAutoplay();
+};
+
+onMounted(() => {
+  startAutoplay();
+});
+
+onBeforeUnmount(() => {
+  stopAutoplay();
+});
 
 const { t, tm } = useI18n();
 

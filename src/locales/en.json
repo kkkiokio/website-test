@@ -199,16 +199,32 @@
     "details": {
       "title": "Connect with us",
       "description": "We respond within two business days and can schedule bilingual workshops across time zones.",
-      "phone": "Phone: +86 755 8899 3200",
-      "email": "Email: hello@aiinnovate.global"
+      "phone": "Phone: +86 187 8207 2944",
+      "email": "Email: 18782072944@163.com",
+      "address": "Office: Zone A, Tianfu Software Park, Chengdu, China",
+      "mapCta": "View map",
+      "social": {
+        "title": "Connect on social",
+        "weibo": "Follow us on Weibo",
+        "x": "Follow us on X",
+        "weiboAria": "Open the Weibo profile in a new tab",
+        "xAria": "Open the X (Twitter) profile in a new tab"
+      }
     }
   },
   "footer": {
     "contact": {
       "title": "Contact",
-      "address": "21F, Nanshan Software Park, Shenzhen, China",
-      "phone": "+86 755 8899 3200",
-      "email": "hello@aiinnovate.global"
+      "address": "Zone A, Tianfu Software Park, Chengdu, China",
+      "phone": "+86 187 8207 2944",
+      "email": "18782072944@163.com"
+    },
+    "social": {
+      "title": "Social",
+      "weibo": "Weibo",
+      "x": "X (Twitter)",
+      "weiboAria": "Open the Weibo profile in a new tab",
+      "xAria": "Open the X (Twitter) profile in a new tab"
     },
     "quickLinks": {
       "title": "Quick links"

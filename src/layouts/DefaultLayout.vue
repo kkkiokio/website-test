@@ -48,6 +48,22 @@
             <p style="margin: 0;">{{ t('footer.contact.phone') }}</p>
             <p style="margin: 0;">{{ t('footer.contact.email') }}</p>
           </div>
+          <div class="footer__social">
+            <strong>{{ t('footer.social.title') }}</strong>
+            <div class="footer__social-links">
+              <a
+                v-for="item in socialLinks"
+                :key="item.key"
+                class="footer__social-link"
+                :href="item.href"
+                target="_blank"
+                rel="noopener noreferrer"
+                :aria-label="t(`footer.social.${item.ariaKey}`)"
+              >
+                {{ t(`footer.social.${item.key}`) }}
+              </a>
+            </div>
+          </div>
           <div style="display: grid; gap: 1rem;">
             <strong>{{ t('footer.quickLinks.title') }}</strong>
             <router-link
@@ -81,6 +97,19 @@ const { t, locale } = useI18n();
 const locales = getSupportedLocales();
 
 useSeo();
+
+const socialLinks = [
+  {
+    key: 'weibo',
+    ariaKey: 'weiboAria',
+    href: 'https://weibo.com/timekettle'
+  },
+  {
+    key: 'x',
+    ariaKey: 'xAria',
+    href: 'https://x.com/TimekettleTech'
+  }
+];
 
 const navigation = computed(() => [
   { label: t('navigation.home'), path: '/' },
@@ -170,5 +199,28 @@ watch(
 .language-switcher__button--active {
   background: #0f172a;
   color: #f8fafc;
+}
+
+.footer__social {
+  display: grid;
+  gap: 1rem;
+}
+
+.footer__social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footer__social-link {
+  color: #e2e8f0;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer__social-link:hover,
+.footer__social-link:focus {
+  color: #bfdbfe;
+  text-decoration: underline;
 }
 </style>

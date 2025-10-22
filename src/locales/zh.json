@@ -199,16 +199,32 @@
     "details": {
       "title": "与我们取得联系",
       "description": "我们会在两个工作日内回复，并支持跨时区的中英文研讨。",
-      "phone": "电话：+86 755 8899 3200",
-      "email": "邮箱：hello@aiinnovate.global"
+      "phone": "电话：+86 187 8207 2944",
+      "email": "邮箱：18782072944@163.com",
+      "address": "办公地址：中国成都·天府软件园A区",
+      "mapCta": "查看地图",
+      "social": {
+        "title": "社交媒体",
+        "weibo": "关注我们的微博",
+        "x": "关注我们的 X",
+        "weiboAria": "在新窗口打开微博主页",
+        "xAria": "在新窗口打开 X（原推特）主页"
+      }
     }
   },
   "footer": {
     "contact": {
       "title": "联系我们",
-      "address": "中国深圳·南山软件园21F",
-      "phone": "+86 755 8899 3200",
-      "email": "hello@aiinnovate.global"
+      "address": "中国成都·天府软件园A区",
+      "phone": "+86 187 8207 2944",
+      "email": "18782072944@163.com"
+    },
+    "social": {
+      "title": "社交媒体",
+      "weibo": "微博",
+      "x": "X（原推特）",
+      "weiboAria": "在新窗口打开微博主页",
+      "xAria": "在新窗口打开 X（原推特）主页"
     },
     "quickLinks": {
       "title": "快速导航"

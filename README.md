@@ -1,6 +1,8 @@
-# LinguaBridge Technologies Website
+# Timekettle Website
 
-多语言的 LinguaBridge Technologies 官网，使用 [Vue 3](https://vuejs.org/) + [Vite](https://vitejs.dev/) 构建，并针对 SEO、国际化以及生产部署进行了优化。
+时空壶 Timekettle 官网基于 [Vue 3](https://vuejs.org/)、[TypeScript](https://www.typescriptlang.org/) 与 [Vite](https://vitejs.dev/) 构建，
+并使用 [vue-i18n](https://vue-i18n.intlify.dev/) 与自定义 SEO 组合件完成中英文双语与动态元信息管理。界面设计遵循品牌提供的官
+方视觉指引，并结合 `public/website.md` 中的官网架构，覆盖首页、关于、产品矩阵、行业案例、新闻资讯与联系等核心页面。
 
 ## 先决条件
 - Node.js 18+（推荐 LTS 版本）
@@ -15,14 +17,15 @@ npm install
 ```bash
 npm run dev
 ```
-默认会在 `http://localhost:5173` 启动本地开发服务器。开发过程中会根据浏览器语言和语言切换器动态更新 `<html lang>`、`<title>`、Meta、OG/Twitter 标签以及 `hreflang` 链接。
+默认会在 `http://localhost:5173` 启动本地开发服务器。开发过程中会根据浏览器语言和语言切换器动态更新 `<html lang>`、
+`<title>`、Meta、OG/Twitter 标签以及 `hreflang` 链接。
 
 ## 环境变量
 通过 Vite 的环境变量系统配置不同环境：
 
 | 变量名 | 说明 | 示例 |
 | --- | --- | --- |
-| `VITE_SITE_URL` | 站点对外访问域名，用于生成 canonical、OG URL、sitemap、robots | `https://linguabridge.ai` |
+| `VITE_SITE_URL` | 站点对外访问域名，用于生成 canonical、OG URL、sitemap、robots | `https://www.timekettle.co` |
 | `VITE_PUBLIC_BASE_PATH` | 静态资源基础路径，部署到子目录时设置 | `/website/` |
 | `VITE_BUILD_OUTPUT_DIR` | 构建输出目录 | `dist` |
 | `VITE_ASSETS_DIR` | 构建产物中的静态资源目录 | `assets` |
@@ -33,11 +36,12 @@ npm run dev
 ## 构建与部署
 ```bash
 # 生成 robots.txt 与 sitemap.xml（prebuild 钩子会自动执行）
-VITE_SITE_URL=https://linguabridge.ai npm run build
+VITE_SITE_URL=https://www.timekettle.co npm run build
 ```
 
 - `vite.config.ts` 会根据当前 `mode` 读取环境变量，自动设置 `base`、构建目录、静态资源目录以及 Source Map。
-- `scripts/generate-seo-assets.mjs` 会在 `npm run build` 前执行，基于 `VITE_SITE_URL` 写入 `public/robots.txt` 与 `public/sitemap.xml`，并在打包时自动复制到最终产物中。
+- `scripts/generate-seo-assets.mjs` 会在 `npm run build` 前执行，基于 `VITE_SITE_URL` 写入 `public/robots.txt` 与 `public/sitemap.xml`，
+  并在打包时自动复制到最终产物中。
 - 构建完成后将 `dist/` 上传至静态托管（例如 Vercel、Netlify、Cloudflare Pages、OSS/CDN 等）。
 
 ### 预渲染 / SSR 建议
@@ -65,7 +69,8 @@ npm run seo:generate   # 单独重新生成 robots.txt 与 sitemap.xml
 ├── index.html                     # 初始 HTML 模板，包含基础 SEO 标签
 ├── public/                        # 构建时直接复制到 dist
 │   ├── robots.txt                 # 自动生成
-│   └── sitemap.xml                # 自动生成
+│   ├── sitemap.xml                # 自动生成
+│   └── website.md                 # 官网架构与内容要点
 ├── scripts/
 │   └── generate-seo-assets.mjs    # robots/sitemap 生成脚本
 ├── src/
@@ -73,6 +78,7 @@ npm run seo:generate   # 单独重新生成 robots.txt 与 sitemap.xml
 │   ├── layouts/DefaultLayout.vue  # 布局组件，挂载 useSeo 并提供语言切换器
 │   ├── locales/en.json            # 英文文案 + SEO 配置
 │   ├── locales/zh.json            # 中文文案 + SEO 配置
+│   ├── views/                     # 首页、关于、产品、案例、新闻、联系页面
 │   └── router/index.ts            # 应用路由
 └── vite.config.ts                 # Vite 配置，支持多环境构建
 ```

@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://aiinnovate.global/sitemap.xml
+Sitemap: https://www.timekettle.co/sitemap.xml

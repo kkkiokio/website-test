@@ -210,12 +210,17 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
-.card {
+.card { 
   background-color: #ffffff;
   border-radius: 16px;
   padding: 2rem;
   box-shadow: 0 15px 40px rgba(15, 23, 42, 0.08);
   border: 1px solid rgba(148, 163, 184, 0.16);
+}
+
+.card--article {
+  display: grid;
+  gap: 1.5rem;
 }
 
 .card--product {
@@ -229,11 +234,21 @@ a {
   box-shadow: 0 15px 40px rgba(37, 99, 235, 0.15);
 }
 
+.card__media--wide {
+  max-height: 360px;
+}
+
 .card__media img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.card__meta {
+  color: #2563eb;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .card__title {
@@ -245,6 +260,32 @@ a {
 .card__subtitle {
   margin-top: 0.5rem;
   color: #556987;
+}
+
+.card__body {
+  display: grid;
+  gap: 0.75rem;
+  color: #334155;
+  line-height: 1.7;
+}
+
+.card__gallery {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.card__gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.14);
+}
+
+.news-list {
+  display: grid;
+  gap: 2.5rem;
 }
 
 .section__title {

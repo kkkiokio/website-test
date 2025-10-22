@@ -57,7 +57,9 @@
     "hero": {
       "title": "Communication is Connection",
       "subtitle": "Timekettle fuses AI speech technology with purposeful industrial design to deliver real-time translation for meetings, classrooms, and journeys worldwide.",
-      "cta": "Book a demo"
+      "cta": "Book a demo",
+      "image": "hero-banner",
+      "imageAlt": "Timekettle flagship translation earbuds displayed with product lineup"
     },
     "stats": [
       {
@@ -76,6 +78,8 @@
     "pillars": {
       "title": "What makes translation effortless",
       "subtitle": "Babel OS 2.0, curated language corpora, and multi-form factor devices keep conversations natural in any scenario.",
+      "image": "collaboration-banner",
+      "imageAlt": "Team collaborating with Timekettle devices in a multilingual meeting",
       "items": [
         {
           "title": "AI simultaneous interpreting",
@@ -98,23 +102,31 @@
         {
           "title": "W4 Pro AI Interpreter Earbuds",
           "description": "Our flagship earbuds deliver 40+ language interpreting with shared captions for meetings, training, and events.",
-          "cta": "Discover W4 Pro"
+          "cta": "Discover W4 Pro",
+          "image": "w4-pro",
+          "imageAlt": "W4 Pro AI Interpreter Earbuds product photo"
         },
         {
           "title": "T1 Pocket Translator",
           "description": "A dual-mode device with an independent screen that supports instant business and public service conversations.",
-          "cta": "Explore T1"
+          "cta": "Explore T1",
+          "image": "t1",
+          "imageAlt": "T1 pocket translator device close-up"
         },
         {
           "title": "X1 AI Translation Hub",
           "description": "An enterprise console that manages devices, corpora, and accounts with APIs and terminology sync.",
-          "cta": "See X1"
+          "cta": "See X1",
+          "image": "x1",
+          "imageAlt": "X1 AI Translation Hub hardware interface"
         }
       ]
     },
     "technology": {
       "title": "Inside Babel OS 2.0",
       "subtitle": "Proprietary speech recognition, noise reduction, and machine translation engines deliver reliable interpreting.",
+      "image": "technology-lab",
+      "imageAlt": "Engineers refining Babel OS 2.0 translation technology",
       "features": [
         {
           "title": "Hybrid offline + cloud",
@@ -134,6 +146,8 @@
     "caseHighlights": {
       "title": "Real-world deployments",
       "subtitle": "Office towers, tourist attractions, schools, police stations, and churches trust Timekettle to bridge languages.",
+      "image": "zero-translator",
+      "imageAlt": "Zero pocket translator supporting travelers on the go",
       "items": [
         {
           "title": "Travel companion",

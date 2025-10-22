@@ -37,6 +37,74 @@ a {
   background-color: #eef2f7;
 }
 
+.hero-section {
+  display: grid;
+  gap: 3rem;
+}
+
+.hero {
+  display: grid;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.hero__content {
+  display: grid;
+  gap: 1.25rem;
+  max-width: 640px;
+}
+
+.hero__eyebrow {
+  font-weight: 600;
+  color: #2563eb;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+}
+
+.hero__title {
+  margin: 0;
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  line-height: 1.1;
+}
+
+.hero__subtitle {
+  margin: 0;
+  font-size: 1.15rem;
+  color: #475569;
+}
+
+.hero__media {
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 25px 60px rgba(15, 23, 42, 0.16);
+}
+
+.hero__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero__stats {
+  margin: 0;
+}
+
+.hero__stat-card {
+  text-align: center;
+}
+
+.hero__stat-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1d4ed8;
+}
+
+.hero__stat-label {
+  color: #64748b;
+}
+
 .button {
   display: inline-block;
   padding: 0.75rem 1.75rem;
@@ -73,6 +141,24 @@ a {
   border: 1px solid rgba(148, 163, 184, 0.16);
 }
 
+.card--product {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.card__media {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(37, 99, 235, 0.15);
+}
+
+.card__media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .card__title {
   margin-bottom: 0.5rem;
   font-size: 1.25rem;
@@ -94,6 +180,38 @@ a {
   font-size: 1.1rem;
   color: #556987;
   margin-bottom: 2.5rem;
+}
+
+.split {
+  display: grid;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.split__content {
+  display: grid;
+  gap: 2rem;
+}
+
+.split__media {
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 25px 60px rgba(15, 23, 42, 0.16);
+}
+
+.split__media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.split--reverse .split__content {
+  order: 2;
+}
+
+.split--reverse .split__media {
+  order: 1;
 }
 
 .timeline {
@@ -153,5 +271,15 @@ a {
   .footer__top {
     flex-direction: row;
     justify-content: space-between;
+  }
+}
+
+@media (min-width: 960px) {
+  .hero {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .split {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

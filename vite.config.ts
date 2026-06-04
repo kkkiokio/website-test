@@ -1,6 +1,7 @@
 import { defineConfig, loadEnv } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import path from 'path';
+import pkg from './package.json';
 
 export default defineConfig(({ mode }) => {
   const root = process.cwd();
@@ -36,7 +37,10 @@ export default defineConfig(({ mode }) => {
       }
     },
     define: {
-      __APP_ENV__: JSON.stringify(env.APP_ENV || mode)
+      __APP_ENV__: JSON.stringify(env.APP_ENV || mode),
+      __APP_VERSION__: JSON.stringify(pkg.version),
+      __BUILD_TIME__: JSON.stringify(new Date().toISOString()),
+      __COMMIT_SHA__: JSON.stringify(env.VITE_COMMIT_SHA || 'dev')
     }
   };
 });
